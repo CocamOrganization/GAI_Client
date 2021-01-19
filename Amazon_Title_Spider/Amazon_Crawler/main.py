@@ -23,6 +23,7 @@ class MyMainForm(Ui_MainWindow):
     def __init__(self):
         super(MyMainForm, self).__init__()
         self.setupUi(self)
+        self.resize(1000, 800)
         self.pushButton.clicked.connect(self.start_crawl)
 
     def console_desplay(self, str):
