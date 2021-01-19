@@ -81,7 +81,7 @@ class all_title_spider(QThread):
         # 将保存好的title进行词频统计
         read_path = file + '/all_titles.txt'
         if os.path.exists(read_path):
-            cal_words.statis_word_all(file)
+            cal_words.statis_word_reviews(file)
         else:
             self.signal.emit('未抓取到title信息')
         # print('程序运行完毕,数据保存路径为：{file}'.format(file=file))

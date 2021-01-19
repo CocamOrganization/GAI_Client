@@ -80,7 +80,66 @@ class Cal_Words(object):
         Split_Keywords_k = pd.Series(list_2)
         return Split_Keywords_k
 
-    def statis_word_all(self, file_path):
+    def split_keywords_k2(self, keywords_reviews, k):
+        '''
+        本函数用于按k个单词进行分词
+
+        参数：
+            keywords: get_keywords函数的结果，DataFrame
+            k: 按k个单词进行分词
+        '''
+        keywords_copy = keywords_reviews.add_suffix('_copy')
+        keywords = keywords_reviews['title']
+        words_num = self.words_number_count(keywords)#keywords包含多少个单词,series格式
+        Index = words_num >= k #查看单词总数是否大于要被分的个数
+        # 若k大于全部的词，则返回-1
+        if sum(Index) == 0:
+            return -1
+        # 筛选出需要被分割处理的单词的index,得到需要处理的词
+        Index = np.array(keywords.index[Index])
+        # 先进行一个词的分词
+        Split_Keywords = self.split_words_one(keywords)
+        # 得到需要处理的词
+        Split_Keywords = Split_Keywords[Index]
+        # 进行k分词
+        Split_Keywords_k = Split_Keywords.apply(lambda x: self.get_iter(x, k))
+        # 将分好词的Series 与 title 和 reviews进行拼接， 并获取title和reviws列
+        Split_Keywords_k = keywords_copy.join(Split_Keywords_k, how='inner')[['title', 'reviews_copy']]
+        list1 = Split_Keywords_k.values.tolist()
+        title_review_lst = [[title, list_value[1]] for list_value in list1
+                            for title in list_value[0]]
+        title_review_frame = pd.DataFrame(title_review_lst)
+        title_review_frame.columns = ['title', 'reviews']
+        return title_review_frame
+
+    def statis_word_reviews(self, file_path):
+        '''
+        用于保存词频统计的结果
+        :param file_path: 文件夹路径
+        :return:
+        '''
+        read_path = file_path + '/all_titles.txt'
+        path = file_path + '/词频统计.xls'
+        keywords = pd.read_csv(read_path, sep='\t')
+        keywords['reviews'] = keywords['reviews'].str.\
+            replace(',', '').replace('None', '0').astype(np.int64)
+        if len(keywords) == 0:
+            print('未成功抓取到title')
+            return
+        writer = pd.ExcelWriter(path)
+        for i in range(1, 11):
+            Split_Keywords = self.split_keywords_k2(keywords, i) #DataFrame格式，带keyword和reviews
+            if type(Split_Keywords) != int:#title的单词个数大于需要被划分的词组个数
+                Word_reviews = Split_Keywords.groupby(['title']).sum()#统计reviews
+                Word_count = Split_Keywords['title'].value_counts()
+                Word_count.name = 'count'
+                word_statis = Word_reviews.join(Word_count, how='outer')
+                word_statis.to_excel(writer, sheet_name=str(i) + '个词')
+        writer.save()
+        writer.close()
+
+
+    def statis_word_numbers(self, file_path):
         '''
         用于保存词频统计的结果
         :param file_path: 文件夹路径
@@ -103,9 +162,10 @@ class Cal_Words(object):
 
 if __name__ == '__main__':
     cal_words = Cal_Words()
-    keywords = pd.read_table('D:/cat food_page_title.txt', header=None).iloc[:, 0]
-    word_number = cal_words.words_number_count(keywords)
-    words_k = cal_words.split_keywords_k(keywords, 3)
-    word_count = cal_words.word_count(words_k)
-    print(word_count)
-    cal_words.statis_word_all('D:\\Demo\\Amazon_Crawler\\2021-01-06\dogs\\all_titles.txt', 'D:')
+    # keywords = pd.read_table('D:/cat food_page_title.txt', header=None).iloc[:, 1]
+    # word_number = cal_words.words_number_count(keywords)
+    # words_k = cal_words.split_keywords_k(keywords, 3)
+    # print(words_k)
+    # word_count = cal_words.word_count(words_k)
+    # print(word_count)
+    cal_words.statis_word_reviews('D://Demo//Amazon_Titler_Spider//Amazon_Crawler//2021-01-18//manyinputs_B012VJLZOM')
