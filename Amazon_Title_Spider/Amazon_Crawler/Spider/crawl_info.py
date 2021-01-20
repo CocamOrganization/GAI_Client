@@ -144,7 +144,7 @@ class Spider(object):
                 '//span[@id="acrCustomerReviewText"]/text()')[0].split()[0].replace(',', ''))
             # print(commodity_info['reviews'])
         except:
-            commodity_info['reviews'] = 'None'
+            commodity_info['reviews'] = 0
         # # 价格
         # try:
         #     commodity_info['price'] = response.xpath('//span[contains(@id,"priceblock")]/text()')[0]
@@ -262,7 +262,7 @@ class Spider(object):
                     commodity_info['reviews'] = int(
                         each_li.xpath('./span/div/span/div[1]/a[2]/text()')[0].replace(',', ''))
                 except:
-                    commodity_info['reviews'] = None
+                    commodity_info['reviews'] = 0
                 # 5.价格区间
                 try:
                     commodity_info['price_Interval'] = '-'.join(each_li.xpath(
@@ -310,7 +310,7 @@ class Spider(object):
             except:
                 commodity_info['title'] = None
             try:
-                commodity_info['reviews'] = html.xpath('//a[contains(@href, "{href}") and @class="a-link-normal"]/span/text()'.format(href=href))[0]
+                commodity_info['reviews'] = int(html.xpath('//a[contains(@href, "{href}") and @class="a-link-normal"]/span/text()'.format(href=href))[0].replace(',', ''))
             except:
                 commodity_info['reviews'] = 0
             yield commodity_info
@@ -330,7 +330,11 @@ class Spider(object):
             for each_li in list_lis:
                 try:
                     # 1.产品名称
-                    commodity_info['title'] = each_li.xpath('./span/div/span/a/span/div/img/@alt')[0]
+                    title = each_li.xpath('./span/div/span/a/div/@title')
+                    if title == []:
+                        title = each_li.xpath('./span/div/span/a/span/div/img/@alt')
+                    commodity_info['title'] = title[0]
+
                 except:
                     commodity_info['title'] = None
                 # 4.评论数
@@ -338,7 +342,7 @@ class Spider(object):
                     commodity_info['reviews'] = int(
                         each_li.xpath('./span/div/span/div[1]/a[2]/text()')[0].replace(',', ''))
                 except:
-                    commodity_info['reviews'] = None
+                    commodity_info['reviews'] = 0
                 yield commodity_info
 
     def get_bsr_two_url(self, response):
@@ -355,13 +359,17 @@ if __name__ == '__main__':
     sr = send_request.Send_Request()
     spider = Spider()
     # text = sr.get_html('https://www.amazon.com/dp/B08DK9X3XC')
-    text = sr.get_html('https://www.amazon.com/dp/B07YXTMPS4')
+    text = sr.get_html('https://www.amazon.com/gp/bestsellers/2975266011')
     # spider.check('asin','aas',text)
     Response = (text, 'https://www.amazon.com/Flash-Furniture-Nantucket-Umbrella-Folding/dp/B07CD5W2QC/ref=zg_bs_1613538101')
     if isinstance(text, str):
         # for i in spider.get_bsr_title(Response):
         #     print(i)
-        print(spider.get_detail_inf(Response))
+        print(spider.get_bsr_title(Response))
+        # print(spider.get_detail_inf(Response))
+        for i in spider.get_bsr_title(Response):
+            print(i)
+
 
 
 

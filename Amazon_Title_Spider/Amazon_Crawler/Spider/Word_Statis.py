@@ -121,7 +121,7 @@ class Cal_Words(object):
         read_path = file_path + '/all_titles.txt'
         path = file_path + '/词频统计.xls'
         keywords = pd.read_csv(read_path, sep='\t')
-        keywords['reviews'] = keywords['reviews'].str.\
+        keywords['reviews'] = keywords['reviews'].\
             replace(',', '').replace('None', '0').astype(np.int64)
         if len(keywords) == 0:
             print('未成功抓取到title')
@@ -134,6 +134,7 @@ class Cal_Words(object):
                 Word_count = Split_Keywords['title'].value_counts()
                 Word_count.name = 'count'
                 word_statis = Word_reviews.join(Word_count, how='outer')
+                word_statis = word_statis.sort_values(by=['count'], ascending=False)
                 word_statis.to_excel(writer, sheet_name=str(i) + '个词')
         writer.save()
         writer.close()

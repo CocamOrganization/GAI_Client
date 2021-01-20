@@ -89,5 +89,5 @@ class all_title_spider(QThread):
 
 
 if __name__ == '__main__':
-    spider = all_title_spider(set(['cat']))
+    spider = all_title_spider(['3480728011'])
     spider.run()
