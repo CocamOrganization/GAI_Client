@@ -1,0 +1,181 @@
+2021-01-06 at 09:25:52 | INFO | 提取token：gEYbE0uE7gOMk8UfHyz0CwszK2YgPP5ibNOUD7sAAAAMAAAAAF/1EZ5yYXcAAAAA
+2021-01-06 at 09:25:55 | INFO | 成功获取页面：https://www.amazon.com/dp/B07YXTMPS4/
+2021-01-06 at 09:27:00 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/home-garden/3733491
+2021-01-06 at 09:27:03 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/home-garden/3733491
+2021-01-06 at 09:27:05 | INFO | 成功获取页面：https://www.amazon.com/Best-Sellers-Home-Kitchen-Living-Room-Chairs/zgbs/home-garden/3733491/ref=zg_bs_pg_2/141-7421092-7939820?_encoding=UTF8&pg=2
+2021-01-06 at 09:29:14 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/home-garden/3733491
+2021-01-06 at 09:29:16 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/home-garden/3733491
+2021-01-06 at 09:29:18 | INFO | 成功获取页面：https://www.amazon.com/Best-Sellers-Home-Kitchen-Living-Room-Chairs/zgbs/home-garden/3733491/ref=zg_bs_pg_2/137-0203658-8360130?_encoding=UTF8&pg=2
+2021-01-06 at 09:30:28 | INFO | 成功获取页面：https://www.amazon.com/s?k=dogs&page=1
+2021-01-06 at 09:30:31 | INFO | 成功获取页面：https://www.amazon.com/s?k=dogs&page=2
+2021-01-06 at 09:30:35 | INFO | 成功获取页面：https://www.amazon.com/s?k=dogs&page=3
+2021-01-06 at 09:34:37 | INFO | 提取token：gMYiZUZn7Qm+dsXCeSuqNLSkdLFBy9xD4Ev5yuEAAAAMAAAAAF/1E6tyYXcAAAAA
+2021-01-06 at 09:34:40 | INFO | 成功获取页面：https://www.amazon.com/dp/B0112O9GZC/
+2021-01-06 at 09:35:15 | INFO | 提取token：gGkXYqtO8qOtjxU56JJiuNeinPXgXBigAoxD3eYAAAAMAAAAAF/1E9JyYXcAAAAA
+2021-01-06 at 09:35:17 | INFO | 成功获取页面：https://www.amazon.com/dp/B0112O9GZC/
+2021-01-06 at 09:35:52 | INFO | 提取token：gAorxKMREt8I3TPShBpE6pidp7kCd6eaC2nnOwwAAAAMAAAAAF/1E/dyYXcAAAAA
+2021-01-06 at 09:35:56 | INFO | 成功获取页面：https://www.amazon.com/dp/B07DYMFFQ8/
+2021-01-06 at 11:10:30 | INFO | 成功获取页面：https://www.amazon.com/s?k=我爱你&page=1
+2021-01-06 at 11:10:33 | INFO | 成功获取页面：https://www.amazon.com/s?k=我爱你&page=2
+2021-01-06 at 11:10:35 | INFO | 成功获取页面：https://www.amazon.com/s?k=我爱你&page=3
+2021-01-06 at 11:11:33 | INFO | 成功获取页面：https://www.amazon.com/s?k=python how to&page=1
+2021-01-06 at 11:11:35 | INFO | 成功获取页面：https://www.amazon.com/s?k=python how to&page=2
+2021-01-06 at 11:11:39 | INFO | 成功获取页面：https://www.amazon.com/s?k=python how to&page=3
+2021-01-06 at 11:13:49 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/home-garden/11444073011
+2021-01-06 at 11:13:52 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/home-garden/11444073011
+2021-01-06 at 11:13:55 | INFO | 成功获取页面：https://www.amazon.com/Best-Sellers-Sports-Outdoors-Mens-Shirts/zgbs/sporting-goods/11444073011/ref=zg_bs_pg_2/137-3525694-8483216?_encoding=UTF8&pg=2
+2021-01-06 at 11:14:45 | INFO | 提取token：gIe8TG/4HdpdYee+TiFx8uXHhXO82ouDX/V1yhgAAAAMAAAAAF/1KyRyYXcAAAAA
+2021-01-06 at 11:14:49 | INFO | 成功获取页面：https://www.amazon.com/dp/B07Z77JF9P/
+2021-01-06 at 11:17:09 | DEBUG | 连接超时，准备重试
+2021-01-06 at 11:17:26 | INFO | 提取token：gNCht8kr87CHKcTOl9Bk17xvGljO5FauNGr2loMAAAAMAAAAAF/1K8RyYXcAAAAA
+2021-01-06 at 11:17:30 | INFO | 成功获取页面：https://www.amazon.com/dp/B07Z77JF9P/
+2021-01-06 at 11:31:16 | INFO | 提取token：gMuJNmC9VWKJWJf0WHq3YG+ZlV5PzuxnpkYrBzgAAAAMAAAAAF/1LwNyYXcAAAAA
+2021-01-06 at 11:31:20 | INFO | 成功获取页面：https://www.amazon.com/dp/B082425KZ4/
+2021-01-06 at 11:33:23 | INFO | 提取token：gI3kZAhauBiE9wCRzSSfUAQ0+oRSoiGmDZTPhPsAAAAMAAAAAF/1L4JyYXcAAAAA
+2021-01-06 at 11:33:27 | INFO | 成功获取页面：https://www.amazon.com/dp/B07Z77JF9P/
+2021-01-06 at 11:34:19 | INFO | 提取token：gMgIHZwfT80Onu90vJzC+fwKaBwgeuAlj72KccAAAAAMAAAAAF/1L7pyYXcAAAAA
+2021-01-06 at 11:34:24 | INFO | 成功获取页面：https://www.amazon.com/dp/B07Z77JF9P/
+2021-01-06 at 11:36:29 | INFO | 提取token：gKNE5sNIExsXIW6nziM9c9ESs9OFxy7avi4mpIEAAAAMAAAAAF/1MDtyYXcAAAAA
+2021-01-06 at 11:36:37 | INFO | 成功获取页面：https://www.amazon.com/dp/B07Z77JF9P/
+2021-01-06 at 11:37:18 | INFO | 提取token：gIHeIVsdwo5Dmzii9h62au5p9d321XG9MIJSyUoAAAAMAAAAAF/1MG1yYXcAAAAA
+2021-01-06 at 11:37:23 | INFO | 成功获取页面：https://www.amazon.com/dp/B01JYUSLPM/
+2021-01-06 at 11:40:21 | INFO | 提取token：gO+1x2QcEVc+jDxeLNtTqfhWtSFEpWLu2RqKcYkAAAAMAAAAAF/1MSRyYXcAAAAA
+2021-01-06 at 11:40:23 | DEBUG | Page Not Found: https://www.amazon.com/dp/B01JYUSLPM11/
+2021-01-06 at 11:40:23 | ERROR | An error has been caught in function 'run', process 'MainProcess' (13124), thread 'MainThread' (28292):
+Traceback (most recent call last):
+
+  File "D:/Demo/Amazon_Crawler/run.py", line 20, in <module>
+    run(inputs)
+    │   └ 'B01JYUSLPM11'
+    └ <function run at 0x000002198CC6EF70>
+
+> File "D:/Demo/Amazon_Crawler/run.py", line 12, in run
+    for inf in inf_iter:
+               └ <generator object Spider.get_detail_inf at 0x000002199D8BE200>
+
+  File "D:\Demo\Amazon_Crawler\Spider\crawl_info.py", line 52, in get_detail_inf
+    response = etree.HTML(text)
+               │     │    └ None
+               │     └ <cyfunction HTML at 0x000002198DEFDA00>
+               └ <module 'lxml.etree' from 'D:\\software\\envs\\Demo\\lib\\site-packages\\lxml\\etree.cp38-win_amd64.pyd'>
+
+  File "src/lxml/etree.pyx", line 3185, in lxml.etree.HTML
+  File "src/lxml/parser.pxi", line 1895, in lxml.etree._parseMemoryDocument
+
+ValueError: can only parse strings
+2021-01-06 at 11:49:49 | INFO | 提取token：gG5c0Wx9mdmRsAONrJaeMONCRIKou63Cf/EGpn8AAAAMAAAAAF/1M1xyYXcAAAAA
+2021-01-06 at 11:49:53 | DEBUG | Page Not Found: https://www.amazon.com/dp/B011111/
+2021-01-06 at 11:51:06 | INFO | 提取token：gPbHV4r0jzXKUFGBcme0q4FcQN1nlz/I2NR2qBsAAAAMAAAAAF/1M6lyYXcAAAAA
+2021-01-06 at 11:51:08 | DEBUG | Page Not Found: https://www.amazon.com/dp/B011111/
+2021-01-06 at 11:54:12 | INFO | 提取token：gA1jPzwzMBPN3zix0UlVpuzy5fFGEj/8WWbl9TIAAAAMAAAAAF/1NGNyYXcAAAAA
+2021-01-06 at 11:54:15 | DEBUG | Page Not Found: https://www.amazon.com/dp/B00001/
+2021-01-06 at 11:55:16 | INFO | 提取token：gE7YeQt3YlG9I24wPLbg1M8Gkjx7MwQwdPmOQkgAAAAMAAAAAF/1NKNyYXcAAAAA
+2021-01-06 at 11:55:18 | DEBUG | Page Not Found: https://www.amazon.com/dp/B000001/
+2021-01-06 at 11:56:06 | INFO | 提取token：gNsX2yavDtgPs1Mvek2P3yo+wk11vxaD0gf10y4AAAAMAAAAAF/1NNVyYXcAAAAA
+2021-01-06 at 11:56:09 | DEBUG | Page Not Found: https://www.amazon.com/dp/B00001/
+2021-01-06 at 13:41:42 | INFO | 提取token：gGRfcOnkfqD9b50hqRQ1Q9stLnkhll9ry1TIkIEAAAAMAAAAAF/1TZVyYXcAAAAA
+2021-01-06 at 13:41:45 | DEBUG | Page Not Found: https://www.amazon.com/dp/B000001/
+2021-01-06 at 13:47:01 | DEBUG | Page Not Found: https://www.amazon.com/gp/bestsellers/home-garden/178899288
+2021-01-06 at 13:47:05 | DEBUG | Page Not Found: https://www.amazon.com/gp/bestsellers/home-garden/178899288
+2021-01-06 at 13:47:05 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:47:16 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:47:28 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:47:40 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:47:49 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:47:57 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:48:07 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:48:15 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:48:26 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:48:35 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:48:45 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:48:55 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:49:07 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:49:19 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:51:02 | DEBUG | Page Not Found: https://www.amazon.com/gp/bestsellers/home-garden/17802595120
+2021-01-06 at 13:51:05 | DEBUG | Page Not Found: https://www.amazon.com/gp/bestsellers/home-garden/17802595120
+2021-01-06 at 13:51:05 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:51:14 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:51:23 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:51:32 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:51:41 | DEBUG | Page Not Found: https://www.amazon.com/gp/bestsellers/home-garden/11111111
+2021-01-06 at 13:51:45 | DEBUG | Page Not Found: https://www.amazon.com/gp/bestsellers/home-garden/11111111
+2021-01-06 at 13:51:45 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:51:56 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:52:07 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:52:16 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:52:25 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:52:37 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:52:49 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:52:58 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:53:06 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:53:30 | DEBUG | Page Not Found: https://www.amazon.com/gp/bestsellers/home-garden/11111111
+2021-01-06 at 13:53:33 | DEBUG | Page Not Found: https://www.amazon.com/gp/bestsellers/home-garden/11111111
+2021-01-06 at 13:53:33 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:53:41 | DEBUG | 连接超时，准备重试
+2021-01-06 at 13:59:30 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/home-garden/11111
+2021-01-06 at 13:59:33 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/home-garden/11111
+2021-01-06 at 13:59:37 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/home-garden/11111
+2021-01-06 at 13:59:41 | INFO | 成功获取页面：https://www.amazon.com/Best-Sellers-Books-Political-Reference/zgbs/books/11111/ref=zg_bs_pg_2/137-5577708-3763412?_encoding=UTF8&pg=2
+2021-01-06 at 13:59:45 | INFO | 成功获取页面：https://www.amazon.com/Best-Sellers-Books-Political-Reference/zgbs/books/11111/ref=zg_bs_pg_2/137-5577708-3763412?_encoding=UTF8&pg=2
+2021-01-06 at 14:00:04 | DEBUG | Page Not Found: https://www.amazon.com/gp/bestsellers/home-garden/1111111111111
+2021-01-06 at 14:04:01 | DEBUG | Page Not Found: https://www.amazon.com/gp/bestsellers/home-garden/1111111111
+2021-01-06 at 14:06:41 | DEBUG | Page Not Found: https://www.amazon.com/gp/bestsellers/1111111111
+2021-01-06 at 14:07:59 | DEBUG | Page Not Found: https://www.amazon.com/gp/bestsellers/1111111111
+2021-01-06 at 14:10:12 | INFO | 成功获取页面：https://www.amazon.com/s?k=cats&page=1
+2021-01-06 at 14:10:17 | INFO | 成功获取页面：https://www.amazon.com/s?k=cats&page=1
+2021-01-06 at 14:10:22 | INFO | 成功获取页面：https://www.amazon.com/s?k=cats&page=2
+2021-01-06 at 14:10:26 | INFO | 成功获取页面：https://www.amazon.com/s?k=cats&page=2
+2021-01-06 at 14:10:31 | INFO | 成功获取页面：https://www.amazon.com/s?k=cats&page=3
+2021-01-06 at 14:10:38 | INFO | 成功获取页面：https://www.amazon.com/s?k=cats&page=3
+2021-01-06 at 14:12:44 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:12:50 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:12:56 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:12:56 | DEBUG | 连接超时，准备重试
+2021-01-06 at 14:13:06 | DEBUG | 连接超时，准备重试
+2021-01-06 at 14:13:15 | DEBUG | 连接超时，准备重试
+2021-01-06 at 14:13:23 | DEBUG | 连接超时，准备重试
+2021-01-06 at 14:13:35 | DEBUG | 连接超时，准备重试
+2021-01-06 at 14:13:46 | DEBUG | 连接超时，准备重试
+2021-01-06 at 14:13:58 | DEBUG | 连接超时，准备重试
+2021-01-06 at 14:14:09 | DEBUG | 连接超时，准备重试
+2021-01-06 at 14:16:27 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:16:34 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:16:41 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:16:41 | DEBUG | 连接超时，准备重试
+2021-01-06 at 14:16:49 | DEBUG | 连接超时，准备重试
+2021-01-06 at 14:16:57 | DEBUG | 连接超时，准备重试
+2021-01-06 at 14:17:06 | DEBUG | 连接超时，准备重试
+2021-01-06 at 14:18:33 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:18:38 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:18:38 | DEBUG | 连接超时，准备重试
+2021-01-06 at 14:18:47 | DEBUG | 连接超时，准备重试
+2021-01-06 at 14:18:59 | DEBUG | 连接超时，准备重试
+2021-01-06 at 14:19:08 | DEBUG | 连接超时，准备重试
+2021-01-06 at 14:20:11 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:20:16 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:20:16 | DEBUG | 连接超时，准备重试
+2021-01-06 at 14:20:29 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:20:34 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:21:13 | DEBUG | 连接超时，准备重试
+2021-01-06 at 14:21:22 | DEBUG | 连接超时，准备重试
+2021-01-06 at 14:21:34 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:21:39 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:23:07 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:23:13 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:24:34 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:24:42 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:24:42 | DEBUG | 连接超时，准备重试
+2021-01-06 at 14:25:59 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:26:08 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:26:46 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:26:51 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/1111
+2021-01-06 at 14:27:41 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/3733851
+2021-01-06 at 14:27:44 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/3733851
+2021-01-06 at 14:27:47 | INFO | 成功获取页面：https://www.amazon.com/Best-Sellers-Home-Kitchen-Barstools/zgbs/home-garden/3733851/ref=zg_bs_pg_2/137-4996942-7448117?_encoding=UTF8&pg=2
+2021-01-06 at 14:28:13 | INFO | 提取token：gGR76AS6bEoFM212dyiVYctOKSLlduaNX04JVc8AAAAMAAAAAF/1WHxyYXcAAAAA
+2021-01-06 at 14:28:18 | INFO | 成功获取页面：https://www.amazon.com/dp/B01JYUSLPM/
+2021-01-06 at 14:28:30 | INFO | 提取token：gHJ6aixfONnaxsdhU43F0haBZ4X0QW5SU5nDsIQAAAAMAAAAAF/1WI5yYXcAAAAA
+2021-01-06 at 14:28:33 | DEBUG | Page Not Found: https://www.amazon.com/dp/B01JYUSLPM11/
+2021-01-06 at 14:29:16 | INFO | 成功获取页面：https://www.amazon.com/s?k=dogs&page=1
+2021-01-06 at 14:29:19 | INFO | 成功获取页面：https://www.amazon.com/s?k=dogs&page=2
+2021-01-06 at 14:29:24 | INFO | 成功获取页面：https://www.amazon.com/s?k=dogs&page=3

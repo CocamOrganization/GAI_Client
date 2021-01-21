@@ -1,0 +1,388 @@
+2021-01-04 at 09:03:20 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/lawn-garden/ref=pd_zg_ts_lawn-garden
+2021-01-04 at 09:03:22 | INFO | 提取token：gGpqO+Ka+cBeSSjGDY8ktZny4EAmwpHqaeT/iZMAAAAMAAAAAF/yaVZyYXcAAAAA
+2021-01-04 at 09:03:28 | INFO | 成功获取页面：https://www.amazon.com/Traeger-pellet-grills-PEL307-Pellets/dp/B00201BFX8/ref=zg_bs_lawn-garden_1/146-3559877-9360966?_encoding=UTF8&psc=1&refRID=JW3MACJQA7ZASX6R8857
+2021-01-04 at 09:03:31 | INFO | 提取token：gDaLXjMPzghB2e4dQVlCENAO21/WasiApQzNkZMAAAAMAAAAAF/yaV5yYXcAAAAA
+2021-01-04 at 09:03:36 | INFO | 成功获取页面：https://www.amazon.com/ThermoPro-TP50-Digital-Thermometer-Temperature/dp/B01H1R0K68/ref=zg_bs_lawn-garden_2/146-3559877-9360966?_encoding=UTF8&psc=1&refRID=JW3MACJQA7ZASX6R8857
+2021-01-04 at 09:03:38 | INFO | 提取token：gJyNZ27Tx/hEp7Rfjrj7SVnMN2ONAZYJ3MDfR+wAAAAMAAAAAF/yaWZyYXcAAAAA
+2021-01-04 at 09:03:43 | INFO | 成功获取页面：https://www.amazon.com/Wagners-52001-Classic-Wild-5-Pound/dp/B004477AIK/ref=zg_bs_lawn-garden_3/146-3559877-9360966?_encoding=UTF8&psc=1&refRID=JW3MACJQA7ZASX6R8857
+2021-01-04 at 09:03:45 | INFO | 提取token：gLpkmTITw/q3B/cCfSk7odtVabzgNMe96xX1FnYAAAAMAAAAAF/yaW1yYXcAAAAA
+2021-01-04 at 09:03:52 | INFO | 成功获取页面：https://www.amazon.com/Miracle-Gro-Indoor-Plant-Spikes-1-1-Ounce/dp/B000HAAOKY/ref=zg_bs_lawn-garden_4/146-3559877-9360966?_encoding=UTF8&psc=1&refRID=JW3MACJQA7ZASX6R8857
+2021-01-04 at 09:03:54 | INFO | 提取token：gFpqcjczRcri13HJqbhspkaKrvlmaX+BTg5xc00AAAAMAAAAAF/yaXZyYXcAAAAA
+2021-01-04 at 09:38:32 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/lawn-garden/ref=pd_zg_ts_lawn-garden
+2021-01-04 at 09:38:34 | INFO | 提取token：gLT9bUqX6gghriY1oFpltcu+2/J3Bqx27RsCaG0AAAAMAAAAAF/ycZpyYXcAAAAA
+2021-01-04 at 09:38:39 | INFO | 成功获取页面：https://www.amazon.com/Traeger-pellet-grills-PEL307-Pellets/dp/B00201BFX8/ref=zg_bs_lawn-garden_1/138-8634660-2877210?_encoding=UTF8&psc=1&refRID=GQC03SKMAPNEJHS20143
+2021-01-04 at 09:38:41 | INFO | 提取token：gLCE5bM1+gD0mSuZ47Mc1HUqDfWVb+YSCbefT8QAAAAMAAAAAF/ycaFyYXcAAAAA
+2021-01-04 at 09:38:47 | INFO | 成功获取页面：https://www.amazon.com/ThermoPro-TP50-Digital-Thermometer-Temperature/dp/B01H1R0K68/ref=zg_bs_lawn-garden_2/138-8634660-2877210?_encoding=UTF8&psc=1&refRID=GQC03SKMAPNEJHS20143
+2021-01-04 at 09:38:49 | INFO | 提取token：gAVO0WAh+uvxinHC+KqEm0L+HqcB/WxceQl/UJwAAAAMAAAAAF/ycalyYXcAAAAA
+2021-01-04 at 09:38:54 | INFO | 成功获取页面：https://www.amazon.com/Wagners-52001-Classic-Wild-5-Pound/dp/B004477AIK/ref=zg_bs_lawn-garden_3/138-8634660-2877210?_encoding=UTF8&psc=1&refRID=GQC03SKMAPNEJHS20143
+2021-01-04 at 09:38:56 | INFO | 提取token：gBQVKHXqgTFqHcRqexnc8eJUIvTd2yZFldK8vn0AAAAMAAAAAF/ycbByYXcAAAAA
+2021-01-04 at 09:39:02 | INFO | 成功获取页面：https://www.amazon.com/Miracle-Gro-Indoor-Plant-Spikes-1-1-Ounce/dp/B000HAAOKY/ref=zg_bs_lawn-garden_4/138-8634660-2877210?_encoding=UTF8&psc=1&refRID=GQC03SKMAPNEJHS20143
+2021-01-04 at 09:39:05 | INFO | 提取token：gISPZfgWvk1kc60HMhpUn0mCxdw6Z10BINRVbrYAAAAMAAAAAF/ycbhyYXcAAAAA
+2021-01-04 at 09:39:10 | INFO | 成功获取页面：https://www.amazon.com/Premium-Powder-Coated-Weather-Proof-Anti-Wind-Stoppers/dp/B0742G9C3D/ref=zg_bs_lawn-garden_5/138-8634660-2877210?_encoding=UTF8&psc=1&refRID=GQC03SKMAPNEJHS20143
+2021-01-04 at 09:39:15 | INFO | 提取token：gJXWDiUjzM80SIf2OSotbDCEAlo7e5qwROs3sxIAAAAMAAAAAF/yccJyYXcAAAAA
+2021-01-04 at 09:39:24 | INFO | 成功获取页面：https://www.amazon.com/Gorilla-Grip-Original-Waterproof-Low-Profile/dp/B07JKFTYHS/ref=zg_bs_lawn-garden_6/138-8634660-2877210?_encoding=UTF8&psc=1&refRID=GQC03SKMAPNEJHS20143
+2021-01-04 at 09:39:28 | INFO | 提取token：gBUg73ATfli7nq4cM8AbX/kh/Dgwqez8LMzoaFwAAAAMAAAAAF/ycc9yYXcAAAAA
+2021-01-04 at 09:39:34 | INFO | 成功获取页面：https://www.amazon.com/ThermoPro-TP49-Hygrometer-Thermometer-Temperature/dp/B07WMF95DD/ref=zg_bs_lawn-garden_7/138-8634660-2877210?_encoding=UTF8&psc=1&refRID=GQC03SKMAPNEJHS20143
+2021-01-04 at 09:39:37 | INFO | 提取token：gBDuvgF3elmvsX77q0ASondHT+j97wfgSsx7szwAAAAMAAAAAF/ycdhyYXcAAAAA
+2021-01-04 at 09:39:42 | INFO | 成功获取页面：https://www.amazon.com/Snow-Joe-AZ-10-EB-JUG-Melt-Removal/dp/B073XVJNY1/ref=zg_bs_lawn-garden_8/138-8634660-2877210?_encoding=UTF8&psc=1&refRID=GQC03SKMAPNEJHS20143
+2021-01-04 at 09:39:46 | INFO | 提取token：gOgsogl3G6+xTECAxic20if1grR5eKROYz4wqLEAAAAMAAAAAF/yceFyYXcAAAAA
+2021-01-04 at 09:39:50 | INFO | 成功获取页面：https://www.amazon.com/Ottomanson-TRY400-30X15-Multi-Purpose-Outdoor-Waterproof/dp/B01LBL9XKE/ref=zg_bs_lawn-garden_9/138-8634660-2877210?_encoding=UTF8&psc=1&refRID=GQC03SKMAPNEJHS20143
+2021-01-04 at 09:39:52 | INFO | 提取token：gNXHGIGzBebRYDIGT+3qUv0Uo1ju05sl5tyZBg4AAAAMAAAAAF/ycehyYXcAAAAA
+2021-01-04 at 09:39:56 | INFO | 成功获取页面：https://www.amazon.com/Wagners-76026-Black-Sunflower-20-Pound/dp/B004477AQW/ref=zg_bs_lawn-garden_10/138-8634660-2877210?_encoding=UTF8&psc=1&refRID=GQC03SKMAPNEJHS20143
+2021-01-04 at 09:39:59 | INFO | 提取token：gAZ+wQystZfkuzjiZ5HlNGbK4yADHhEv4vVIVJkAAAAMAAAAAF/yce5yYXcAAAAA
+2021-01-04 at 09:40:05 | INFO | 成功获取页面：https://www.amazon.com/Scotts-72776430-Indoor-Potting-6-Qt/dp/B01JIRJK8S/ref=zg_bs_lawn-garden_11/138-8634660-2877210?_encoding=UTF8&psc=1&refRID=GQC03SKMAPNEJHS20143
+2021-01-04 at 09:40:07 | INFO | 提取token：gCSdacY2yBoojs/oneWHFxmANvWEBa95LrlWkXAAAAAMAAAAAF/ycfdyYXcAAAAA
+2021-01-04 at 15:33:05 | DEBUG | Page Not Found: https://www.amazon.com/gp/bestsellers/home-garden/100001
+2021-01-04 at 15:36:15 | DEBUG | 出现验证码,更换ip:https://www.amazon.com/gp/bestsellers/home-garden/100001
+2021-01-04 at 15:48:28 | DEBUG | Page Not Found: https://www.amazon.com/gp/bestsellers/home-garden/100001
+2021-01-04 at 15:50:23 | DEBUG | Page Not Found: https://www.amazon.com/gp/bestsellers/home-garden/100001
+2021-01-04 at 15:52:27 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/home-garden/7509667011
+2021-01-04 at 16:12:26 | INFO | 提取token：gJ4cPxaB84bHcy8w7Tce7Pqv+FoN8gGv0H4gREoAAAAMAAAAAF/yzepyYXcAAAAA
+2021-01-04 at 16:12:30 | INFO | 成功获取页面：https://www.amazon.com/s?k=patio chairs&page=1
+2021-01-04 at 16:12:31 | INFO | 提取token：gEtsqz7GWWH+hZ78p7IIRZTEm0FT7wjQLJr46lsAAAAMAAAAAF/yze9yYXcAAAAA
+2021-01-04 at 16:12:37 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_1?ie=UTF8&adId=A03831081O4LFM7YEA17Z&url=%2FNuzanto-Aluminum-All-Weather-Rust-Resistant-Backyard%2Fdp%2FB08NZ72WRQ%2Fref%3Dsr_1_1_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609747948%26sr%3D8-1-spons%26psc%3D1&qualifier=1609747948&id=109565602580768&widgetName=sp_atf
+2021-01-04 at 16:12:40 | INFO | 提取token：gFfu7eeG7aZz5QeMTyT0gx8TMRwWHXDrIaejSsAAAAAMAAAAAF/yzfhyYXcAAAAA
+2021-01-04 at 16:12:44 | INFO | 成功获取页面：https://www.amazon.com//Keter-Weather-Outdoor-Conversation-Furniture/dp/B00K8945QS/ref=sr_1_2?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-2
+2021-01-04 at 16:12:46 | INFO | 提取token：gFSNrTQo6XbMYIWXPZtgdPSuIvIBqnjUh4zoU3IAAAAMAAAAAF/yzf5yYXcAAAAA
+2021-01-04 at 16:12:51 | INFO | 成功获取页面：https://www.amazon.com//Flash-Furniture-Outdoor-Comfort-Material/dp/B08DHGP5BL/ref=sr_1_3?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-3
+2021-01-04 at 16:12:54 | INFO | 提取token：gFpu7B0mzWRm6fiVtH/lWjaU/ghNaogVXacVUzEAAAAMAAAAAF/yzgRyYXcAAAAA
+2021-01-04 at 16:12:58 | INFO | 成功获取页面：https://www.amazon.com//Flamaker-Pieces-Outdoor-Furniture-Conversation/dp/B07DJ6J6GD/ref=sr_1_4?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-4
+2021-01-04 at 16:13:00 | INFO | 提取token：gO9nxXm5FUNvQQIHwyIYj0XLHJWRe24fKexFUKAAAAAMAAAAAF/yzgxyYXcAAAAA
+2021-01-04 at 16:13:05 | INFO | 成功获取页面：https://www.amazon.com//AmazonBasics-Dining-Chair-Patio-Cover/dp/B00LFIZ4RU/ref=sxin_9_pb?cv_ct_cx=patio+chairs&dchild=1&keywords=patio+chairs&pd_rd_i=B00LFIZ4RU&pd_rd_r=f6a4e28b-eabb-4560-bdff-c4cbfb24cf1b&pd_rd_w=wi70I&pd_rd_wg=1jnjZ&pf_rd_p=ffb450f7-bfad-4e7e-95e8-f2bd147e99a4&pf_rd_r=MJGQF9K4HQN0XHKMA286&qid=1609747948&sr=1-1-8065ff8c-2587-4a7f-b8da-1df8b2563c11
+2021-01-04 at 16:13:07 | INFO | 提取token：gCj2GS8oPj6QsMXwVzXd1cxaRlNpFvTn2Zrg0uQAAAAMAAAAAF/yzhNyYXcAAAAA
+2021-01-04 at 16:13:12 | INFO | 成功获取页面：https://www.amazon.com//AmazonBasics-High-Back-Chair-Outdoor-Furniture/dp/B00S13DBGS/ref=sxin_9_pb?cv_ct_cx=patio+chairs&dchild=1&keywords=patio+chairs&pd_rd_i=B00S13DBGS&pd_rd_r=f6a4e28b-eabb-4560-bdff-c4cbfb24cf1b&pd_rd_w=wi70I&pd_rd_wg=1jnjZ&pf_rd_p=ffb450f7-bfad-4e7e-95e8-f2bd147e99a4&pf_rd_r=MJGQF9K4HQN0XHKMA286&qid=1609747948&sr=1-2-8065ff8c-2587-4a7f-b8da-1df8b2563c11
+2021-01-04 at 16:13:13 | INFO | 提取token：gCdFAFGAwkF1cOSWfmMKf+voDcZ6Iv4UIjyXoysAAAAMAAAAAF/yzhlyYXcAAAAA
+2021-01-04 at 16:13:18 | INFO | 成功获取页面：https://www.amazon.com//AmazonBasics-55-514-016201-11-Adirondack-Chair-Patio-Cover/dp/B00S13DEMY/ref=sxin_9_pb?cv_ct_cx=patio+chairs&dchild=1&keywords=patio+chairs&pd_rd_i=B00S13DEMY&pd_rd_r=f6a4e28b-eabb-4560-bdff-c4cbfb24cf1b&pd_rd_w=wi70I&pd_rd_wg=1jnjZ&pf_rd_p=ffb450f7-bfad-4e7e-95e8-f2bd147e99a4&pf_rd_r=MJGQF9K4HQN0XHKMA286&qid=1609747948&sr=1-3-8065ff8c-2587-4a7f-b8da-1df8b2563c11
+2021-01-04 at 16:13:19 | INFO | 提取token：gH5kLu0xkgY6S5b9/TPS5BFqA/SsFzaiv4DsxBkAAAAMAAAAAF/yzh9yYXcAAAAA
+2021-01-04 at 16:13:23 | INFO | 成功获取页面：https://www.amazon.com//AmazonBasics-Padded-Gravity-Chair-Black/dp/B07LFLT47G/ref=sxin_9_pb?cv_ct_cx=patio+chairs&dchild=1&keywords=patio+chairs&pd_rd_i=B07LFLT47G&pd_rd_r=f6a4e28b-eabb-4560-bdff-c4cbfb24cf1b&pd_rd_w=wi70I&pd_rd_wg=1jnjZ&pf_rd_p=ffb450f7-bfad-4e7e-95e8-f2bd147e99a4&pf_rd_r=MJGQF9K4HQN0XHKMA286&qid=1609747948&sr=1-4-8065ff8c-2587-4a7f-b8da-1df8b2563c11
+2021-01-04 at 16:13:24 | INFO | 提取token：gK7jUaSUDjlkePAvFsGjZ1wqjacl1bAzvmKH2XgAAAAMAAAAAF/yziRyYXcAAAAA
+2021-01-04 at 16:13:30 | INFO | 成功获取页面：https://www.amazon.com//AmazonBasics-56-185-016701-PL-Highback-Chair-Patio/dp/B07CYT5K6P/ref=sxin_9_pb?cv_ct_cx=patio+chairs&dchild=1&keywords=patio+chairs&pd_rd_i=B07CYT5K6P&pd_rd_r=f6a4e28b-eabb-4560-bdff-c4cbfb24cf1b&pd_rd_w=wi70I&pd_rd_wg=1jnjZ&pf_rd_p=ffb450f7-bfad-4e7e-95e8-f2bd147e99a4&pf_rd_r=MJGQF9K4HQN0XHKMA286&qid=1609747948&sr=1-5-8065ff8c-2587-4a7f-b8da-1df8b2563c11
+2021-01-04 at 16:13:33 | INFO | 提取token：gEdK7/ijPRQ1ajmY3c+e704wSlJwjo0PYHzZnxAAAAAMAAAAAF/yzixyYXcAAAAA
+2021-01-04 at 16:13:38 | INFO | 成功获取页面：https://www.amazon.com//Keter-Gallon-Weather-Outdoor-Storage/dp/B00E0JO5MG/ref=sxin_10?ascsubtag=amzn1.osa.9bae6f34-c85b-46d2-bf3e-b14666f96fe8.ATVPDKIKX0DER.en_US&creativeASIN=B00E0JO5MG&cv_ct_cx=patio+chairs&cv_ct_id=amzn1.osa.9bae6f34-c85b-46d2-bf3e-b14666f96fe8.ATVPDKIKX0DER.en_US&cv_ct_pg=search&cv_ct_we=asin&cv_ct_wn=osp-single-source-earns-comm&dchild=1&keywords=patio+chairs&linkCode=oas&pd_rd_i=B00E0JO5MG&pd_rd_r=f6a4e28b-eabb-4560-bdff-c4cbfb24cf1b&pd_rd_w=7DqPN&pd_rd_wg=1jnjZ&pf_rd_p=f3b5998c-f375-43c3-8b6f-7e234416634e&pf_rd_r=MJGQF9K4HQN0XHKMA286&qid=1609747948&sr=1-1-64f3a41a-73ca-403a-923c-8152c45485fe&tag=interesting_things_os-20
+2021-01-04 at 16:13:39 | INFO | 提取token：gJXk5qwqwrbQzcLfyP/oV8XQ+WS4AjpX5rD6pTQAAAAMAAAAAF/yzjNyYXcAAAAA
+2021-01-04 at 16:13:43 | INFO | 成功获取页面：https://www.amazon.com//Gorilla-Gadgets-Patio-Heater-Restaurants/dp/B08PDWJTRJ/ref=sxin_10?ascsubtag=amzn1.osa.9bae6f34-c85b-46d2-bf3e-b14666f96fe8.ATVPDKIKX0DER.en_US&creativeASIN=B08PDWJTRJ&cv_ct_cx=patio+chairs&cv_ct_id=amzn1.osa.9bae6f34-c85b-46d2-bf3e-b14666f96fe8.ATVPDKIKX0DER.en_US&cv_ct_pg=search&cv_ct_we=asin&cv_ct_wn=osp-single-source-earns-comm&dchild=1&keywords=patio+chairs&linkCode=oas&pd_rd_i=B08PDWJTRJ&pd_rd_r=f6a4e28b-eabb-4560-bdff-c4cbfb24cf1b&pd_rd_w=7DqPN&pd_rd_wg=1jnjZ&pf_rd_p=f3b5998c-f375-43c3-8b6f-7e234416634e&pf_rd_r=MJGQF9K4HQN0XHKMA286&qid=1609747948&sr=1-2-64f3a41a-73ca-403a-923c-8152c45485fe&tag=interesting_things_os-20
+2021-01-04 at 16:13:45 | INFO | 提取token：gOpwifizRdTj/iNDUr2PKU+9wgOdR9AV3/oMs5IAAAAMAAAAAF/yzjlyYXcAAAAA
+2021-01-04 at 16:13:48 | INFO | 成功获取页面：https://www.amazon.com//Best-Choice-Products-Backyard-Removable/dp/B00S8UT6YK/ref=sxin_10?ascsubtag=amzn1.osa.9bae6f34-c85b-46d2-bf3e-b14666f96fe8.ATVPDKIKX0DER.en_US&creativeASIN=B00S8UT6YK&cv_ct_cx=patio+chairs&cv_ct_id=amzn1.osa.9bae6f34-c85b-46d2-bf3e-b14666f96fe8.ATVPDKIKX0DER.en_US&cv_ct_pg=search&cv_ct_we=asin&cv_ct_wn=osp-single-source-earns-comm&dchild=1&keywords=patio+chairs&linkCode=oas&pd_rd_i=B00S8UT6YK&pd_rd_r=f6a4e28b-eabb-4560-bdff-c4cbfb24cf1b&pd_rd_w=7DqPN&pd_rd_wg=1jnjZ&pf_rd_p=f3b5998c-f375-43c3-8b6f-7e234416634e&pf_rd_r=MJGQF9K4HQN0XHKMA286&qid=1609747948&sr=1-3-64f3a41a-73ca-403a-923c-8152c45485fe&tag=interesting_things_os-20
+2021-01-04 at 16:13:49 | INFO | 提取token：gBr3ESxYGpKx3lQpKeczOXMAPogK+5RzH4St/6kAAAAMAAAAAF/yzj1yYXcAAAAA
+2021-01-04 at 16:13:54 | INFO | 成功获取页面：https://www.amazon.com//AmazonBasics-Graity-Chair-Table-Black/dp/B07MK6LHG2/ref=sr_1_5?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-5
+2021-01-04 at 16:13:56 | INFO | 提取token：gHna07BQWyBHQ6aXMKG/B239JpPUpEtEWPDIz5MAAAAMAAAAAF/yzkRyYXcAAAAA
+2021-01-04 at 16:14:02 | INFO | 成功获取页面：https://www.amazon.com//Flash-Furniture-Rattan-Indoor-Outdoor-Restaurant/dp/B01HMWRNUS/ref=sr_1_6?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-6
+2021-01-04 at 16:14:05 | INFO | 提取token：gHXf+N6I6N1udJWlIgkJTEh5P41iLNx+fre5pxAAAAAMAAAAAF/yzkxyYXcAAAAA
+2021-01-04 at 16:14:09 | INFO | 成功获取页面：https://www.amazon.com//Best-Choice-Products-Adjustable-Recliners/dp/B086JFWSXN/ref=sr_1_7?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-7
+2021-01-04 at 16:14:12 | INFO | 提取token：gPNHyGVflC5Shzv2GlokBvJaqQKhAiS7/qJmA1YAAAAMAAAAAF/yzlRyYXcAAAAA
+2021-01-04 at 16:14:17 | INFO | 成功获取页面：https://www.amazon.com//Flash-Furniture-Rattan-Indoor-Outdoor-Restaurant/dp/B01HMWRNMG/ref=sr_1_8?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-8
+2021-01-04 at 16:14:21 | INFO | 提取token：gCFjg/GHs4YmBRUaM1u9J06+st2Jn7f1CpeX9zUAAAAMAAAAAF/yzl1yYXcAAAAA
+2021-01-04 at 16:14:25 | INFO | 成功获取页面：https://www.amazon.com//LOKATSE-HOME-Outdoor-Wrought-Cushions/dp/B07Q3V2TPK/ref=sr_1_9?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-9
+2021-01-04 at 16:14:26 | INFO | 提取token：gFl2PJ9Um0KaGECX+M2QSlNOjpkF/Zi6/J4aC3cAAAAMAAAAAF/yzmJyYXcAAAAA
+2021-01-04 at 16:14:30 | INFO | 成功获取页面：https://www.amazon.com//Outdoors-All-Weather-Spring-Outdoor-Backyard/dp/B08CH3C8SG/ref=sr_1_10?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-10
+2021-01-04 at 16:14:32 | INFO | 提取token：gPbUJFMPUfbTuik3NgW6us5ilC1NU1ZIwM1yVQgAAAAMAAAAAF/yzmhyYXcAAAAA
+2021-01-04 at 16:14:36 | INFO | 成功获取页面：https://www.amazon.com//Flash-Furniture-Rattan-Indoor-Outdoor-Restaurant/dp/B01HMWRRHM/ref=sr_1_11?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-11
+2021-01-04 at 16:14:39 | INFO | 提取token：gCvk/GojhoLpBpeeBQs4krRqs8LA5y2O7sYy8fQAAAAMAAAAAF/yzm5yYXcAAAAA
+2021-01-04 at 16:14:44 | INFO | 成功获取页面：https://www.amazon.com//Flash-Furniture-Black-Restaurant-Aluminum/dp/B01HMWRR1S/ref=sr_1_12?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-12
+2021-01-04 at 16:14:46 | INFO | 提取token：gPSFSPvux2CZP7ow+gzFn0tSD7RQsdSsevT77q8AAAAMAAAAAF/yznZyYXcAAAAA
+2021-01-04 at 16:14:52 | INFO | 成功获取页面：https://www.amazon.com//Outdoors-Wicker-Dining-Stackable-Outdoor-Multibrown/dp/B08BRJBCH1/ref=sr_1_13?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-13
+2021-01-04 at 16:14:54 | INFO | 提取token：gBVvN8kNFrXzsus+S0kipNEQu4S7KzvPB2nodRQAAAAMAAAAAF/yzn5yYXcAAAAA
+2021-01-04 at 16:14:58 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_mtf_aps_sr_pg1_1?ie=UTF8&adId=A04038343CB8ZJ2YXXWHS&url=%2FOC-Orange-Casual-Loveseat-Furniture-Turquoise%2Fdp%2FB0874BBZCM%2Fref%3Dsr_1_14_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609747948%26sr%3D8-14-spons%26psc%3D1&qualifier=1609747948&id=109565602580768&widgetName=sp_mtf
+2021-01-04 at 16:15:00 | INFO | 提取token：gM9iE/6k7BduxzGrvBf4DMxFDbu0J4jv4DR8HjcAAAAMAAAAAF/yzoRyYXcAAAAA
+2021-01-04 at 16:15:06 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_mtf_aps_sr_pg1_1?ie=UTF8&adId=A0483366F1X9KLFX1TIL&url=%2FShintenchi-Outdoor-Furniture-Conversation-Poolside%2Fdp%2FB08522LPYR%2Fref%3Dsr_1_15_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609747948%26sr%3D8-15-spons%26psc%3D1&qualifier=1609747948&id=109565602580768&widgetName=sp_mtf
+2021-01-04 at 16:15:09 | INFO | 提取token：gPHcS8tEyMUUGgKJQyXLq3C0hBMtvCKykisvuCEAAAAMAAAAAF/yzotyYXcAAAAA
+2021-01-04 at 16:15:14 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_mtf_aps_sr_pg1_1?ie=UTF8&adId=A07122132RAZHJANWD6J5&url=%2FDAILYLIFE-Plastic-Adirondack-Backyard-Furniture%2Fdp%2FB08L35G2R5%2Fref%3Dsr_1_16_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609747948%26sr%3D8-16-spons%26psc%3D1&qualifier=1609747948&id=109565602580768&widgetName=sp_mtf
+2021-01-04 at 16:15:16 | INFO | 提取token：gJsvTndPVvNVB/W0Qd+KfFd0p5/eY0InjAZDLbsAAAAMAAAAAF/yzpRyYXcAAAAA
+2021-01-04 at 16:15:21 | INFO | 成功获取页面：https://www.amazon.com//Best-Choice-Products-Conversation-Furniture/dp/B08P58TQ6C/ref=sr_1_17?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-17
+2021-01-04 at 16:15:23 | INFO | 提取token：gBy2/NnIGMoqeQpMdcPU2e5Vbta12XSv6lhqT0MAAAAMAAAAAF/yzppyYXcAAAAA
+2021-01-04 at 16:15:26 | INFO | 成功获取页面：https://www.amazon.com//CleverMade-Tamarack-Folding-Wooden-Outdoor/dp/B07WQZ36TX/ref=sr_1_18?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-18
+2021-01-04 at 16:15:29 | INFO | 提取token：gKiAFHl/ce+EtZjGVME3k/kXIqIAY882D+rltv0AAAAMAAAAAF/yzqByYXcAAAAA
+2021-01-04 at 16:15:33 | INFO | 成功获取页面：https://www.amazon.com//Barton-Premium-X-Large-Resistant-Relaxing/dp/B07XVCM6PV/ref=sr_1_19?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-19
+2021-01-04 at 16:15:35 | INFO | 提取token：gOc8jeGDEMiMmzDGId1cLpAAPr/ohorfQ5+KID4AAAAMAAAAAF/yzqdyYXcAAAAA
+2021-01-04 at 16:15:39 | INFO | 成功获取页面：https://www.amazon.com//HAPPYGRILL-3-Pieces-Furniture-Cushions-Conversation/dp/B087CFC8XF/ref=sr_1_20?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-20
+2021-01-04 at 16:15:42 | INFO | 提取token：gMcjfeOv/dRVCSGHwktntNbEbykb+tOx3ScbTbEAAAAMAAAAAF/yzq5yYXcAAAAA
+2021-01-04 at 16:15:48 | INFO | 成功获取页面：https://www.amazon.com//Best-Choice-Products-Adirondack-Furniture/dp/B01992PM6G/ref=sr_1_21?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-21
+2021-01-04 at 16:15:50 | INFO | 提取token：gBE/kLXPkKlrsryYSoRoT3aNGmzN2kMZp9TIOhkAAAAMAAAAAF/yzrVyYXcAAAAA
+2021-01-04 at 16:15:56 | INFO | 成功获取页面：https://www.amazon.com//GREARDEN-Furniture-Outdoor-Conversation-Backyard/dp/B083S94J7N/ref=sr_1_22?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-22
+2021-01-04 at 16:15:58 | INFO | 提取token：gDKx+RwMu8h8CORdQVmIAHcusdScKlTAVAB3TF8AAAAMAAAAAF/yzr5yYXcAAAAA
+2021-01-04 at 16:16:03 | INFO | 成功获取页面：https://www.amazon.com//Outdoors-Rocking-Outdoor-Furniture-Cushions/dp/B08CH25G1G/ref=sr_1_23?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-23
+2021-01-04 at 16:16:10 | INFO | 提取token：gAU+bTrg0U2cXeMDNfiGQrRlpgwIaA+MH/sm+kQAAAAMAAAAAF/yzshyYXcAAAAA
+2021-01-04 at 16:16:15 | INFO | 成功获取页面：https://www.amazon.com//Devoko-Furniture-Rattan-Cushion-Outdoor/dp/B0765VTBLV/ref=sr_1_24?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-24
+2021-01-04 at 16:16:19 | INFO | 提取token：gECIG5xIJFYAQqdfSstDa9i+DHkkv/Ja2TT1VGMAAAAMAAAAAF/yztNyYXcAAAAA
+2021-01-04 at 16:16:24 | INFO | 成功获取页面：https://www.amazon.com//Top-Space-Textilene-Outdoor-Weather/dp/B086KSXBGS/ref=sr_1_25?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-25
+2021-01-04 at 16:16:26 | INFO | 提取token：gKWKJM286jOrzbiC9ns9v2ocab6mLXpZirhNtq8AAAAMAAAAAF/yztpyYXcAAAAA
+2021-01-04 at 16:16:32 | INFO | 成功获取页面：https://www.amazon.com//Timber-Ridge-Oversize-Adjustable-Recliner/dp/B017B9PPHA/ref=sr_1_26?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-26
+2021-01-04 at 16:16:36 | INFO | 提取token：gE15ojj7iYdxZkVqQcK6meBRRxpWunifPznIp0EAAAAMAAAAAF/yzuNyYXcAAAAA
+2021-01-04 at 16:16:41 | INFO | 成功获取页面：https://www.amazon.com//FDW-Metal-Restaurant-Stackable-Capacity/dp/B06XKSGR2L/ref=sr_1_27?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-27
+2021-01-04 at 16:16:44 | INFO | 提取token：gMOq1h7gnXpVzP4M4x+wqgo9bhTlq0PvAjaoXIkAAAAMAAAAAF/yzutyYXcAAAAA
+2021-01-04 at 16:16:49 | INFO | 成功获取页面：https://www.amazon.com//LOKATSE-HOME-Outdoor-Swivel-Rocking/dp/B07WP95YBG/ref=sr_1_28?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-28
+2021-01-04 at 16:16:50 | INFO | 提取token：gJd5rUZZNgsusTDI3W10A7QAT45f7MFqzNaF4/4AAAAMAAAAAF/yzvJyYXcAAAAA
+2021-01-04 at 16:16:55 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_mtf_aps_sr_pg1_1?ie=UTF8&adId=A0933660FUP6BYC95DX9&url=%2FTUSY-Reclining-Furniture-Adjustable-Backrest%2Fdp%2FB083TLPGQ1%2Fref%3Dsr_1_29_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609747948%26sr%3D8-29-spons%26psc%3D1&qualifier=1609747948&id=109565602580768&widgetName=sp_mtf
+2021-01-04 at 16:16:57 | INFO | 提取token：gC9EOMqVlMFmruSL3xy6hInIxhu8z9VFSPiHiJ4AAAAMAAAAAF/yzvlyYXcAAAAA
+2021-01-04 at 16:17:01 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_mtf_aps_sr_pg1_1?ie=UTF8&adId=A08190283ULGNYE9R981P&url=%2FOutdoor-Folding-Recliners-Adjustable-Comfortable%2Fdp%2FB08DJ2V4Z3%2Fref%3Dsr_1_30_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609747948%26sr%3D8-30-spons%26psc%3D1&qualifier=1609747948&id=109565602580768&widgetName=sp_mtf
+2021-01-04 at 16:17:04 | INFO | 提取token：gAZH+3+TaET/Eg+a6xzBdVQeC3zT3MlXi+uHQGAAAAAMAAAAAF/yzwByYXcAAAAA
+2021-01-04 at 16:17:08 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_mtf_aps_sr_pg1_1?ie=UTF8&adId=A03170981QMD0EZPJ7X3Z&url=%2Fdomi-outdoor-living-Adjustable-Recliner%2Fdp%2FB08LNF4WK5%2Fref%3Dsr_1_31_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609747948%26sr%3D8-31-spons%26psc%3D1&qualifier=1609747948&id=109565602580768&widgetName=sp_mtf
+2021-01-04 at 16:17:11 | INFO | 提取token：gMLZ+JUDu41s0fIS9y5JUMBrW51zedphJZJtaXEAAAAMAAAAAF/yzwZyYXcAAAAA
+2021-01-04 at 16:17:17 | INFO | 成功获取页面：https://www.amazon.com//Keter-Armchair-Furniture-Cushions-Charcoal/dp/B00C5C7OS2/ref=sr_1_32?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-32
+2021-01-04 at 16:17:19 | INFO | 提取token：gKMIk50jalWbNM9/oP3SImikKrOAF3l9CK064dsAAAAMAAAAAF/yzw5yYXcAAAAA
+2021-01-04 at 16:17:25 | INFO | 成功获取页面：https://www.amazon.com//Giantex-Folding-Portable-Outdoor-Camping/dp/B06XWPKYRN/ref=sr_1_33?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-33
+2021-01-04 at 16:17:27 | INFO | 提取token：gMWy+Hu+iEQPMB98yxzHzwvDIF1naKLnVcnddnwAAAAMAAAAAF/yzxdyYXcAAAAA
+2021-01-04 at 16:17:31 | INFO | 成功获取页面：https://www.amazon.com//SUPER-DEAL-Reclining-Adjustable-Gravity/dp/B08GKMFHCR/ref=sr_1_34?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-34
+2021-01-04 at 16:17:34 | INFO | 提取token：gOcMk1RZTo/ywth+yyi58jKhHbjpLxeKakPiLXsAAAAMAAAAAF/yzx5yYXcAAAAA
+2021-01-04 at 16:17:41 | INFO | 成功获取页面：https://www.amazon.com//Giantex-Outdoor-Camping-Breathable-Backrest/dp/B088PR1QJY/ref=sr_1_35?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-35
+2021-01-04 at 16:17:43 | INFO | 提取token：gOIMiwaKW1vCLauQpMeeLQI4ZD3j+mCydTLvD/0AAAAMAAAAAF/yzydyYXcAAAAA
+2021-01-04 at 16:17:47 | INFO | 成功获取页面：https://www.amazon.com//Flash-Furniture-Nantucket-Umbrella-Folding/dp/B07CD5W2QC/ref=sr_1_36?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-36
+2021-01-04 at 16:17:49 | INFO | 提取token：gP4VoJP+q4DGGAK9db9bgVCK5s99v66DsOKpKmAAAAAMAAAAAF/yzyxyYXcAAAAA
+2021-01-04 at 16:17:55 | INFO | 成功获取页面：https://www.amazon.com//Giantex-Backyard-Tempered-Tabletop-Umbrella/dp/B0881TRLD6/ref=sr_1_37?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-37
+2021-01-04 at 16:17:58 | INFO | 提取token：gDTqIVsdmv0Pg8xyEzNbBQuKNTeD75zSwMf7XsgAAAAMAAAAAF/yzzZyYXcAAAAA
+2021-01-04 at 16:18:03 | INFO | 成功获取页面：https://www.amazon.com//3-Piece-Acacia-Wood-Patio-Bistro/dp/B07WZRZ4YM/ref=sr_1_38?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-38
+2021-01-04 at 16:18:05 | INFO | 提取token：gGP82oCtJZSXEezbM/oIBUHkmCmqYi26H/sXwekAAAAMAAAAAF/yzz1yYXcAAAAA
+2021-01-04 at 16:18:14 | INFO | 成功获取页面：https://www.amazon.com//Outdoor-Polyester-Comfort-Classics-Inc/dp/B08M9PVC6C/ref=sr_1_39?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-39
+2021-01-04 at 16:18:16 | INFO | 提取token：gGY7mWHmUk6PQMHHMd7a6pHlt+2DEofWCHjjjwAAAAAMAAAAAF/yz0hyYXcAAAAA
+2021-01-04 at 16:18:21 | INFO | 成功获取页面：https://www.amazon.com//KingCamp-Adjustable-Reclining-Positions-Removable/dp/B073XKCT82/ref=sr_1_40?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-40
+2021-01-04 at 16:18:22 | INFO | 提取token：gGfK8QWjmwUFc6iZxv5z85KtMr8Sh2epthtPDksAAAAMAAAAAF/yz05yYXcAAAAA
+2021-01-04 at 16:18:27 | INFO | 成功获取页面：https://www.amazon.com//Shintenchi-Outdoor-Furniture-Conversation-Poolside/dp/B08522LPYR/ref=sr_1_41?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-41
+2021-01-04 at 16:18:30 | INFO | 提取token：gKHhbAGLmwmIF8DJ99U8FmCp+2L2xJv4e3s3/sEAAAAMAAAAAF/yz1VyYXcAAAAA
+2021-01-04 at 16:18:36 | INFO | 成功获取页面：https://www.amazon.com//Shintenchi-Furniture-Conversation-Glass-Top-Backyard/dp/B085235PG3/ref=sr_1_42?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-42
+2021-01-04 at 16:18:38 | INFO | 提取token：gPfv8980GUOqRoh4Qp+8ctCPpHzKKyWyI5spX8cAAAAMAAAAAF/yz11yYXcAAAAA
+2021-01-04 at 16:18:43 | INFO | 成功获取页面：https://www.amazon.com//Homall-Outdoor-Furniture-Backyard-Poolside/dp/B07412ZHMQ/ref=sr_1_43?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-43
+2021-01-04 at 16:18:44 | INFO | 提取token：gKmQyt/t/KgDbOLVps1WtVtMFL7yi56Vvyh+STYAAAAMAAAAAF/yz2RyYXcAAAAA
+2021-01-04 at 16:18:49 | INFO | 成功获取页面：https://www.amazon.com//MacSports-C932S-130-Cushion-Outdoor-Folding/dp/B084T6NPVG/ref=sr_1_44?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-44
+2021-01-04 at 16:18:51 | INFO | 提取token：gJ2ZFiGyb3m9WaxioOsMIrcTtEYIvxGjb1c3zxwAAAAMAAAAAF/yz2pyYXcAAAAA
+2021-01-04 at 16:18:55 | INFO | 成功获取页面：https://www.amazon.com//Outdoor-Swivel-All-Weather-Counter-Backyard/dp/B089K7S755/ref=sr_1_45?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-45
+2021-01-04 at 16:18:56 | INFO | 提取token：gIuEoVw4he/kLbV2PwaYbyS92qQXuSog2XG1XpoAAAAMAAAAAF/yz3ByYXcAAAAA
+2021-01-04 at 16:19:02 | INFO | 成功获取页面：https://www.amazon.com//Giantex-Folding-Chairs-Camping-Garden/dp/B01LQ19IPY/ref=sr_1_46?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-46
+2021-01-04 at 16:19:06 | INFO | 提取token：gFHlR7DKJk1mB8yE4C5IFU39EnFYLaLA8VRe+hMAAAAMAAAAAF/yz3hyYXcAAAAA
+2021-01-04 at 16:19:10 | INFO | 成功获取页面：https://www.amazon.com//Keter-Pacific-Cool-Bar-Furniture/dp/B082BR6BVT/ref=sr_1_47?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-47
+2021-01-04 at 16:19:11 | INFO | 提取token：gJB/DYzEzUNwGLbYrWkrQFd3KqFz75L9uIi+oGQAAAAMAAAAAF/yz39yYXcAAAAA
+2021-01-04 at 16:19:15 | INFO | 成功获取页面：https://www.amazon.com//Oversized-Recliner-Reclining-Detachable-Adjustable/dp/B08JTKCP94/ref=sr_1_48?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-48
+2021-01-04 at 16:19:17 | INFO | 提取token：gGZVynYcUrH0+Y8k7XhbwntoCXVPzKeXt2sGQtMAAAAMAAAAAF/yz4RyYXcAAAAA
+2021-01-04 at 16:19:22 | INFO | 成功获取页面：https://www.amazon.com//IN4-Care-Cushions-Decorative-Furniture/dp/B08FQNPCQM/ref=sr_1_49?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-49
+2021-01-04 at 16:19:25 | INFO | 提取token：gKezlIUMjlzLtHkg9VEnttAZqDXE9KG/P/1ILC0AAAAMAAAAAF/yz4tyYXcAAAAA
+2021-01-04 at 16:19:30 | INFO | 成功获取页面：https://www.amazon.com//POLYWOOD-Modern-Adirondack-Chair-Black/dp/B079Y5K6HX/ref=sr_1_50?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-50
+2021-01-04 at 16:19:31 | INFO | 提取token：gAhkR0xhmOqpOF49Vdu0J+o7fa+pcph67GAN3xEAAAAMAAAAAF/yz5NyYXcAAAAA
+2021-01-04 at 16:19:36 | INFO | 成功获取页面：https://www.amazon.com//Kitchen-Restaurant-Trattoria-Stackable-Outdoor/dp/B07PDR8CGG/ref=sr_1_51?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-51
+2021-01-04 at 16:19:37 | INFO | 提取token：gJUxXGKsXFZ1aIIjhzs/Tj1aj/x8PbSueyOQca0AAAAMAAAAAF/yz5lyYXcAAAAA
+2021-01-04 at 16:19:41 | INFO | 成功获取页面：https://www.amazon.com//Outdoor-Cushions-Ohuhu-Furniture-Water-Resistant/dp/B08F35SJK3/ref=sr_1_52?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-52
+2021-01-04 at 16:19:43 | INFO | 提取token：gHYNTQCl+UUUUTQ5zIUTmTf6IHbwO0BN1oLz8j4AAAAMAAAAAF/yz59yYXcAAAAA
+2021-01-04 at 16:19:48 | INFO | 成功获取页面：https://www.amazon.com//Patio-Festival-Cushioned-Furniture-Conversation/dp/B07VFN3HZ6/ref=sr_1_53?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-53
+2021-01-04 at 16:19:50 | INFO | 提取token：gN2xglemt39tIaDiPxrEy5hWrm0ANOH7NUbMXZYAAAAMAAAAAF/yz6ZyYXcAAAAA
+2021-01-04 at 16:19:54 | INFO | 成功获取页面：https://www.amazon.com//Desk-Assembly-Standard-with-Drawers/dp/B00STRXGIE/ref=sr_1_54?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-54
+2021-01-04 at 16:19:57 | INFO | 提取token：gItbUc62G9bHtoUMFCY6O9Mq7t81of8vu/AI/qMAAAAMAAAAAF/yz61yYXcAAAAA
+2021-01-04 at 16:20:01 | INFO | 成功获取页面：https://www.amazon.com//Timber-Ridge-Gravity-Oversize-Recliner/dp/B06VVBG8YJ/ref=sr_1_55?dchild=1&keywords=patio+chairs&qid=1609747948&sr=8-55
+2021-01-04 at 16:20:03 | INFO | 提取token：gAjiVsh7frfI2f/arBs0FjVmkpUTRSg21nZO8RYAAAAMAAAAAF/yz7NyYXcAAAAA
+2021-01-04 at 16:20:08 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_btf_aps_sr_pg1_1?ie=UTF8&adId=A02904793SPQZRQENT7ZR&url=%2FUlax-Furniture-Stacking-Dining-Outdoor%2Fdp%2FB08BYSFTCB%2Fref%3Dsr_1_56_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609747948%26sr%3D8-56-spons%26psc%3D1&qualifier=1609747948&id=109565602580768&widgetName=sp_btf
+2021-01-04 at 16:20:10 | INFO | 提取token：gC3oEa3nPNxMcNf2ub7WVGMq0yPMkhV26u7NixYAAAAMAAAAAF/yz7pyYXcAAAAA
+2021-01-04 at 16:20:16 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_btf_aps_sr_pg1_1?ie=UTF8&adId=A0986659294L4KISM7K7N&url=%2FCHINNLUU-Furniture-Loveseat-Sectional-Conversation%2Fdp%2FB0897WXP82%2Fref%3Dsr_1_57_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609747948%26sr%3D8-57-spons%26psc%3D1&qualifier=1609747948&id=109565602580768&widgetName=sp_btf
+2021-01-04 at 16:20:18 | INFO | 提取token：gE+sIOEi7ubV5uMB4chvvAKnpgA1a7VEfNWmLtUAAAAMAAAAAF/yz8FyYXcAAAAA
+2021-01-04 at 16:20:22 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_btf_aps_sr_pg1_1?ie=UTF8&adId=A02903553D04HDXUK55QC&url=%2FFurniture-Stacking-Dining-Outdoor-Chairs%2Fdp%2FB08BYT5H8Z%2Fref%3Dsr_1_58_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609747948%26sr%3D8-58-spons%26psc%3D1&qualifier=1609747948&id=109565602580768&widgetName=sp_btf
+2021-01-04 at 16:20:25 | INFO | 提取token：gO1Y6LpTY9Kt0U8TjCD4tJ0a2qTqFRvdCdd0pOQAAAAMAAAAAF/yz8lyYXcAAAAA
+2021-01-04 at 16:20:31 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_btf_aps_sr_pg1_1?ie=UTF8&adId=A08408181LJI1LJ4KJWF&url=%2FGrand-patio-Outdoor-Backyard-Cushion%2Fdp%2FB08B1HSJKK%2Fref%3Dsr_1_59_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609747948%26sr%3D8-59-spons%26psc%3D1&qualifier=1609747948&id=109565602580768&widgetName=sp_btf
+2021-01-04 at 16:20:34 | INFO | 提取token：gNGgkjuqba7/37VLw2hDOJqh2+shYtaFCnOnX20AAAAMAAAAAF/yz9FyYXcAAAAA
+2021-01-04 at 16:20:37 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_btf_aps_sr_pg1_1?ie=UTF8&adId=A060681113ZF5IKRG9HAT&url=%2FGrand-patio-Weather-Resistant-Conversation-Garden-Macaron%2Fdp%2FB083TQPYQL%2Fref%3Dsr_1_60_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609747948%26sr%3D8-60-spons%26psc%3D1&qualifier=1609747948&id=109565602580768&widgetName=sp_btf
+2021-01-04 at 16:20:39 | INFO | 提取token：gP/aTFIpP49/5ehiWhCGReP6hPSEiAEe9l07B+kAAAAMAAAAAF/yz9dyYXcAAAAA
+2021-01-04 at 16:20:42 | INFO | 成功获取页面：https://www.amazon.com/s?k=patio chairs&page=2
+2021-01-04 at 16:20:44 | INFO | 提取token：gFQPxGY4QDoThGLuu7Iz1OLpBQQiQKneePPXec4AAAAMAAAAAF/yz9xyYXcAAAAA
+2021-01-04 at 16:20:50 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_next_aps_sr_pg2_1?ie=UTF8&adId=A04845083V7XV42H2G5Y&url=%2FCloud-Mountain-Outdoor-Wrought-Cushions%2Fdp%2FB01N4BM0TN%2Fref%3Dsr_1_49_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609748441%26sr%3D8-49-spons%26psc%3D1&qualifier=1609748441&id=6741474813750476&widgetName=sp_atf_next
+2021-01-04 at 16:20:52 | INFO | 提取token：gAsnbOpC5lQhlfQmBkX66wV6SsrKhox2JRMElXgAAAAMAAAAAF/yz+NyYXcAAAAA
+2021-01-04 at 16:20:56 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_next_aps_sr_pg2_1?ie=UTF8&adId=A08190283ULGNYE9R981P&url=%2FOutdoor-Folding-Recliners-Adjustable-Comfortable%2Fdp%2FB08DJ2V4Z3%2Fref%3Dsr_1_50_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609748441%26sr%3D8-50-spons%26psc%3D1&qualifier=1609748441&id=6741474813750476&widgetName=sp_atf_next
+2021-01-04 at 16:20:58 | INFO | 提取token：gPY3J05NtCZTOKer3m9Cwb3aToXP9NHvUTByLiMAAAAMAAAAAF/yz+pyYXcAAAAA
+2021-01-04 at 16:21:02 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_next_aps_sr_pg2_1?ie=UTF8&adId=A01201172G3I7VH6VXM9C&url=%2FGrand-patio-Outdoor-Reclining-Cushion%2Fdp%2FB08421VLRC%2Fref%3Dsr_1_51_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609748441%26sr%3D8-51-spons%26psc%3D1%26smid%3DA38Z8OGK223KE2&qualifier=1609748441&id=6741474813750476&widgetName=sp_atf_next
+2021-01-04 at 16:21:05 | INFO | 提取token：gINmXceldiZNndE4KZxvkpIJ0Ge1qbUNHfGg8XMAAAAMAAAAAF/yz/ByYXcAAAAA
+2021-01-04 at 16:21:09 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_next_aps_sr_pg2_1?ie=UTF8&adId=A0986659294L4KISM7K7N&url=%2FCHINNLUU-Furniture-Loveseat-Sectional-Conversation%2Fdp%2FB0897WXP82%2Fref%3Dsr_1_52_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609748441%26sr%3D8-52-spons%26psc%3D1&qualifier=1609748441&id=6741474813750476&widgetName=sp_atf_next
+2021-01-04 at 16:21:12 | INFO | 提取token：gEjdfwttZxxCwW0WJ3ue7oUeghZaP1brusvXHEsAAAAMAAAAAF/yz/hyYXcAAAAA
+2021-01-04 at 16:21:16 | INFO | 成功获取页面：https://www.amazon.com//Devoko-Rocking-Bistro-Outdoor-Furniture/dp/B07FSCJTLX/ref=sr_1_53?dchild=1&keywords=patio+chairs&qid=1609748441&sr=8-53
+2021-01-04 at 16:21:18 | INFO | 提取token：gADuJCuigMpC5QWzcTYRn+79X8W+HoW9QHmgVZ8AAAAMAAAAAF/yz/5yYXcAAAAA
+2021-01-04 at 16:21:23 | INFO | 成功获取页面：https://www.amazon.com//Gravity-Recliner-Outdoor-Folding-Adjustable/dp/B07WQTXFJS/ref=sr_1_54?dchild=1&keywords=patio+chairs&qid=1609748441&sr=8-54
+2021-01-04 at 16:21:25 | INFO | 提取token：gIJ70mxQxdeYATtJR/YTW2FVZ9NB0b6WlPsaVXEAAAAMAAAAAF/y0AVyYXcAAAAA
+2021-01-04 at 16:21:30 | INFO | 成功获取页面：https://www.amazon.com//Best-Choice-Products-Oversized-Textilene/dp/B08N9LDLC2/ref=sr_1_55?dchild=1&keywords=patio+chairs&qid=1609748441&sr=8-55
+2021-01-04 at 16:21:32 | INFO | 提取token：gMuGrSAkRcxxzCtsE/L7xE997oYvmHPA6KOQuxkAAAAMAAAAAF/y0AtyYXcAAAAA
+2021-01-04 at 16:21:37 | INFO | 成功获取页面：https://www.amazon.com//Sunjoy-S-DNC1384PST-B3-Zero-Gravity-Chair-Black/dp/B078MM3SKK/ref=sr_1_56?dchild=1&keywords=patio+chairs&qid=1609748441&sr=8-56
+2021-01-04 at 16:21:39 | INFO | 提取token：gGckT3crun9zwwnI85rNjZB67732GcTVJUMxVpcAAAAMAAAAAF/y0BNyYXcAAAAA
+2021-01-04 at 16:21:44 | INFO | 成功获取页面：https://www.amazon.com//ENSTVER-Pieces-Conversation-Rocking-Backyard/dp/B0854R5WTY/ref=sr_1_57?dchild=1&keywords=patio+chairs&qid=1609748441&sr=8-57
+2021-01-04 at 16:21:46 | INFO | 提取token：gKRZ1tPu/aw7+wxIxyZgnpD2x/do1soyhOqz9dgAAAAMAAAAAF/y0BlyYXcAAAAA
+2021-01-04 at 16:21:51 | INFO | 成功获取页面：https://www.amazon.com//Tangkula-Furniture-Conversation-Cushions-Suitable/dp/B085216R3Q/ref=sr_1_58?dchild=1&keywords=patio+chairs&qid=1609748441&sr=8-58
+2021-01-04 at 16:21:53 | INFO | 提取token：gMIsftnyms4uciwkc+fpDyaIihP7bNjEE4bhpmUAAAAMAAAAAF/y0CFyYXcAAAAA
+2021-01-04 at 16:21:59 | INFO | 成功获取页面：https://www.amazon.com//Backrests-Cushions-Loveseat-Furniture-Recliner/dp/B08KY3F7MX/ref=sr_1_59?dchild=1&keywords=patio+chairs&qid=1609748441&sr=8-59
+2021-01-04 at 16:22:04 | INFO | 提取token：gLzgtDKwAHCOh10HJfk+j1xvebdtKEiksnd+OX8AAAAMAAAAAF/y0CxyYXcAAAAA
+2021-01-04 at 16:22:10 | INFO | 成功获取页面：https://www.amazon.com//AUCOOMA-Lounger-Cushions-Cushion-Reclining/dp/B08KCXZ3QZ/ref=sr_1_60?dchild=1&keywords=patio+chairs&qid=1609748441&sr=8-60
+2021-01-04 at 16:22:13 | INFO | 提取token：gNHKu7ncEXCVWtYzqBVHbmoUSbb20IQkIbW+EB0AAAAMAAAAAF/y0DRyYXcAAAAA
+2021-01-04 at 16:22:17 | INFO | 成功获取页面：https://www.amazon.com//East-West-Furniture-BCNC5NA-Position/dp/B07N1JZKLR/ref=sr_1_61?dchild=1&keywords=patio+chairs&qid=1609748441&sr=8-61
+2021-01-04 at 16:22:20 | INFO | 提取token：gFlrMaeFssuWGUFcre568UC581WJYCA238BKWh0AAAAMAAAAAF/y0DtyYXcAAAAA
+2021-01-04 at 16:22:25 | INFO | 成功获取页面：https://www.amazon.com//Pyramid-Home-Decor-3-Piece-Rocking/dp/B08GW14C54/ref=sr_1_62?dchild=1&keywords=patio+chairs&qid=1609748441&sr=8-62
+2021-01-04 at 16:22:28 | INFO | 提取token：gPB6O3MKooCxYRg1JhreUvO3bQR7bTcX050jf5oAAAAMAAAAAF/y0ERyYXcAAAAA
+2021-01-04 at 16:22:35 | INFO | 成功获取页面：https://www.amazon.com//Devoko-Furniture-Outdoor-Conversation-Poolside/dp/B07MKT792H/ref=sr_1_63?dchild=1&keywords=patio+chairs&qid=1609748441&sr=8-63
+2021-01-04 at 16:22:38 | INFO | 提取token：gFQAqD5DPmBO3iyspuwrqrI617JKOrnq5MTh+JoAAAAMAAAAAF/y0E1yYXcAAAAA
+2021-01-04 at 16:22:44 | INFO | 成功获取页面：https://www.amazon.com//Walker-Edison-Furniture-Company-Acacia/dp/B00B5SI8DC/ref=sr_1_64?dchild=1&keywords=patio+chairs&qid=1609748441&sr=8-64
+2021-01-04 at 16:22:47 | INFO | 提取token：gGzNAnVPZoZlbDhQ9GZu3ffYykjpFhH33+qwhREAAAAMAAAAAF/y0FdyYXcAAAAA
+2021-01-04 at 16:22:53 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_mtf_aps_sr_pg2_1?ie=UTF8&adId=A04038343CB8ZJ2YXXWHS&url=%2FOC-Orange-Casual-Loveseat-Furniture-Turquoise%2Fdp%2FB0874BBZCM%2Fref%3Dsr_1_65_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609748441%26sr%3D8-65-spons%26psc%3D1&qualifier=1609748441&id=6741474813750476&widgetName=sp_mtf
+2021-01-04 at 16:22:55 | INFO | 提取token：gD8IFEWObBbF4qaS/+QgCHgncIgvueYkcWoSvRoAAAAMAAAAAF/y0F5yYXcAAAAA
+2021-01-04 at 16:23:00 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_mtf_aps_sr_pg2_1?ie=UTF8&adId=A0483366F1X9KLFX1TIL&url=%2FShintenchi-Outdoor-Furniture-Conversation-Poolside%2Fdp%2FB08522LPYR%2Fref%3Dsr_1_66_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609748441%26sr%3D8-66-spons%26psc%3D1&qualifier=1609748441&id=6741474813750476&widgetName=sp_mtf
+2021-01-04 at 16:23:03 | INFO | 提取token：gHLn+uC46Hkee5iigwkl8UDpz8KSNwCa39XNKpQAAAAMAAAAAF/y0GZyYXcAAAAA
+2021-01-04 at 16:23:07 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_mtf_aps_sr_pg2_1?ie=UTF8&adId=A07122132RAZHJANWD6J5&url=%2FDAILYLIFE-Plastic-Adirondack-Backyard-Furniture%2Fdp%2FB08L35G2R5%2Fref%3Dsr_1_67_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609748441%26sr%3D8-67-spons%26psc%3D1&qualifier=1609748441&id=6741474813750476&widgetName=sp_mtf
+2021-01-04 at 16:23:09 | INFO | 提取token：gHSlFR/n+IlE4TSNErnXS/LvsJdJTyGosFHpdcgAAAAMAAAAAF/y0G1yYXcAAAAA
+2021-01-04 at 16:23:16 | INFO | 成功获取页面：https://www.amazon.com//Best-Choice-Products-Foldable-Recliner/dp/B074GDKS4H/ref=sr_1_68?dchild=1&keywords=patio+chairs&qid=1609748441&sr=8-68
+2021-01-04 at 16:23:18 | INFO | 提取token：gBVQnVexunP+WYxPBjM17FRomhxja0xUdojAJygAAAAMAAAAAF/y0HZyYXcAAAAA
+2021-01-04 at 16:23:23 | INFO | 成功获取页面：https://www.amazon.com//PHI-VILLA-Outdoor-Kitchen-Furniture/dp/B07WRJ2P8V/ref=sr_1_69?dchild=1&keywords=patio+chairs&qid=1609748441&sr=8-69
+2021-01-04 at 16:23:24 | INFO | 提取token：gDYhbswbGrdLLiCtWoPGafVjIE63aKyNrP/OSwYAAAAMAAAAAF/y0HxyYXcAAAAA
+2021-01-04 at 16:23:28 | INFO | 成功获取页面：https://www.amazon.com//Outdoor-Polyester-Comfort-Classics-Inc/dp/B01NCVPJRS/ref=sr_1_70?dchild=1&keywords=patio+chairs&qid=1609748441&sr=8-70
+2021-01-04 at 16:23:30 | INFO | 提取token：gGN5kLJgq7qMpKeZOCVRm6s6meSCCcdpkMSGzoMAAAAMAAAAAF/y0IJyYXcAAAAA
+2021-01-04 at 16:23:36 | INFO | 成功获取页面：https://www.amazon.com//Patio-Festival-Outdoor-Furniture-Backyard/dp/B082PX4HZ3/ref=sr_1_71?dchild=1&keywords=patio+chairs&qid=1609748441&sr=8-71
+2021-01-04 at 16:23:38 | INFO | 提取token：gKOepjqubJ9aM0SxRgsSniP/ufOzyvYXYkzVCogAAAAMAAAAAF/y0IpyYXcAAAAA
+2021-01-04 at 16:23:43 | INFO | 成功获取页面：https://www.amazon.com//LayinSun-Outdoor-Furniture-Conversation-Backyard/dp/B08LYYZ37W/ref=sr_1_72?dchild=1&keywords=patio+chairs&qid=1609748441&sr=8-72
+2021-01-04 at 16:23:45 | INFO | 提取token：gGV2ZoF1xLpxBjEw3gLlTnVdhKFFSVAC8c/cCBoAAAAMAAAAAF/y0JFyYXcAAAAA
+2021-01-04 at 16:23:50 | INFO | 成功获取页面：https://www.amazon.com//MCombo-Outdoor-Adjustable-Backrest-Cushions/dp/B08NT2TZHD/ref=sr_1_73?dchild=1&keywords=patio+chairs&qid=1609748441&sr=8-73
+2021-01-04 at 16:23:52 | INFO | 提取token：gFGRJkcQqSBuNv1v7SITTVKoUYn6O9f9AyEWtJkAAAAMAAAAAF/y0JdyYXcAAAAA
+2021-01-04 at 16:23:56 | INFO | 成功获取页面：https://www.amazon.com//Best-Choice-Products-Conversation-Furniture/dp/B07FFG458D/ref=sr_1_74?dchild=1&keywords=patio+chairs&qid=1609748441&sr=8-74
+2021-01-04 at 16:23:58 | INFO | 提取token：gCNTsvcLkb/PXilF0JybA9pphc0FYKpCadCpAlAAAAAMAAAAAF/y0J1yYXcAAAAA
+2021-01-04 at 16:24:41 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/home-garden/3733491
+2021-01-04 at 16:24:45 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/home-garden/3733491
+2021-01-04 at 16:24:46 | INFO | 提取token：gN3fJmnTwMKXrcW7lZRRxowEEJ+DNJ0YyNTmwy4AAAAMAAAAAF/y0M5yYXcAAAAA
+2021-01-04 at 16:24:51 | INFO | 成功获取页面：https://www.amazon.com/Art-Leon-Mid-Century-Armchair-Bedroom/dp/B07X3DTR4P/ref=zg_bs_3733491_1/143-7428375-6183349?_encoding=UTF8&psc=1&refRID=YWX07XWSVH6XS05F8SB4
+2021-01-04 at 16:24:53 | INFO | 提取token：gJtAFdD5/IpLiBuq5QqAfWaFXAhWrIHkvGVmr/oAAAAMAAAAAF/y0NVyYXcAAAAA
+2021-01-04 at 16:24:58 | INFO | 成功获取页面：https://www.amazon.com/Recliner-Massage-Reading-Reclining-Backrest/dp/B07YXTMPS4/ref=zg_bs_3733491_2/143-7428375-6183349?_encoding=UTF8&psc=1&refRID=YWX07XWSVH6XS05F8SB4
+2021-01-04 at 16:25:01 | INFO | 提取token：gAZZo46ZnBrUHgxU1/VoMOF7NMI08RO94YMFUpUAAAAMAAAAAF/y0NxyYXcAAAAA
+2021-01-04 at 16:25:33 | INFO | 提取token：gKbx/LD3f2c0otOFO9TKBCGQcXe3gD4ZQidDoxcAAAAMAAAAAF/y0PxyYXcAAAAA
+2021-01-04 at 16:25:37 | INFO | 成功获取页面：https://www.amazon.com/dp/B07YXTMPS4
+2021-01-04 at 16:25:42 | INFO | 提取token：gCSjMOk0e+hbcSDr0Uz/vVnXDhMfL2Qfdov+yUIAAAAMAAAAAF/y0QRyYXcAAAAA
+2021-01-04 at 16:25:44 | INFO | 成功获取页面：https://www.amazon.com/#
+2021-01-04 at 16:25:49 | DEBUG | 连接超时，准备重试
+2021-01-04 at 16:26:01 | INFO | 提取token：gKydzsEc9d2JIcBuFlGjRKOYSKzmbnrckK9xB1QAAAAMAAAAAF/y0RlyYXcAAAAA
+2021-01-04 at 16:26:07 | INFO | 成功获取页面：https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=sspa_dk_detail_0?ie=UTF8&adId=A038324411DLLEABBB5JI&qualifier=1609748735&id=6199110843167885&widgetName=sp_detail&url=%2Fdp%2FB08L4K1R7K%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB08L4K1R7K%26pd_rd_w%3DWEsLW%26pf_rd_p%3D7d37a48b-2b1a-4373-8c1a-bdcc5da66be9%26pd_rd_wg%3DJYB4F%26pf_rd_r%3DJ9Q00H33SX5K3TDF587X%26pd_rd_r%3Dec63b8dc-3149-4358-8deb-c2d92be733c5
+2021-01-04 at 16:26:10 | INFO | 提取token：gOrCk6UpCsJMPyM5hsgxYMD44wefkn8XKis3M2wAAAAMAAAAAF/y0SFyYXcAAAAA
+2021-01-04 at 16:26:15 | INFO | 成功获取页面：https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=sspa_dk_detail_0?ie=UTF8&adId=A038324411DLLEABBB5JI&qualifier=1609748735&id=6199110843167885&widgetName=sp_detail&url=%2Fdp%2FB08L4K1R7K%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB08L4K1R7K%26pd_rd_w%3DWEsLW%26pf_rd_p%3D7d37a48b-2b1a-4373-8c1a-bdcc5da66be9%26pd_rd_wg%3DJYB4F%26pf_rd_r%3DJ9Q00H33SX5K3TDF587X%26pd_rd_r%3Dec63b8dc-3149-4358-8deb-c2d92be733c5
+2021-01-04 at 16:26:18 | INFO | 提取token：gKgHWYIfMJ9zxdpfHXsEZp2xhncaupmmXgu+MrwAAAAMAAAAAF/y0SpyYXcAAAAA
+2021-01-04 at 16:26:23 | INFO | 成功获取页面：https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=sspa_dk_detail_1?ie=UTF8&adId=A0687978YPG4379JTJPS&qualifier=1609748735&id=6199110843167885&widgetName=sp_detail&url=%2Fdp%2FB00OJMEX1M%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB00OJMEX1M%26pd_rd_w%3DWEsLW%26pf_rd_p%3D7d37a48b-2b1a-4373-8c1a-bdcc5da66be9%26pd_rd_wg%3DJYB4F%26pf_rd_r%3DJ9Q00H33SX5K3TDF587X%26pd_rd_r%3Dec63b8dc-3149-4358-8deb-c2d92be733c5
+2021-01-04 at 16:26:25 | INFO | 提取token：gIa4EMUbI/GvXYfdGaXw+ALKJ8J0caFPv9Xa5XcAAAAMAAAAAF/y0TByYXcAAAAA
+2021-01-04 at 16:31:02 | INFO | 提取token：gHLabP/uSQGrBpv3E0V00HOT0hRGaT9mPsezsuYAAAAMAAAAAF/y0kZyYXcAAAAA
+2021-01-04 at 16:31:07 | INFO | 成功获取页面：https://www.amazon.com/dp/B07YXTMPS4
+2021-01-04 at 16:31:08 | INFO | 提取token：gKBiDRNlVJJg74YVKAB45kD40RdIf/DSlmXE+bEAAAAMAAAAAF/y0kxyYXcAAAAA
+2021-01-04 at 16:31:11 | DEBUG | 连接超时，准备重试
+2021-01-04 at 16:31:24 | INFO | 提取token：gGYhWeERuvyEX2gPAJybKg1mmq/v513XHAt1pZIAAAAMAAAAAF/y0lxyYXcAAAAA
+2021-01-04 at 16:31:27 | DEBUG | 连接超时，准备重试
+2021-01-04 at 16:31:43 | INFO | 提取token：gIkZLvZiml4j/JP4dQUFRg3IDrDjEqUpFWVX8TkAAAAMAAAAAF/y0m5yYXcAAAAA
+2021-01-04 at 16:31:45 | DEBUG | 连接超时，准备重试
+2021-01-04 at 16:31:58 | INFO | 提取token：gMqQV9qOchiY1I3IBg6PTTqphGk0IZvjlEDNFHMAAAAMAAAAAF/y0n5yYXcAAAAA
+2021-01-04 at 16:32:00 | DEBUG | 连接超时，准备重试
+2021-01-04 at 16:32:14 | INFO | 提取token：gLBFVhqBk3KCtXzWhXagDRmMLFYrt9OfDOUGvZkAAAAMAAAAAF/y0o5yYXcAAAAA
+2021-01-04 at 16:32:16 | DEBUG | 连接超时，准备重试
+2021-01-04 at 16:32:27 | INFO | 提取token：gOHmWD20ZBW9sMn56/6cjySJ4jepaiENuyC94RwAAAAMAAAAAF/y0ptyYXcAAAAA
+2021-01-04 at 16:32:29 | DEBUG | 连接超时，准备重试
+2021-01-04 at 16:35:05 | INFO | 提取token：gLnrOdo/uCZuqwEQSZn2vqy0YNAby0T5vpNYVQQAAAAMAAAAAF/y0zlyYXcAAAAA
+2021-01-04 at 16:35:07 | DEBUG | 连接超时，准备重试
+2021-01-04 at 16:35:16 | DEBUG | 连接超时，准备重试
+2021-01-04 at 16:35:29 | INFO | 提取token：gEAiNMUYpiqd2Liitjdr4RGwABWu9jGFbizkQ60AAAAMAAAAAF/y01FyYXcAAAAA
+2021-01-04 at 16:35:31 | DEBUG | 连接超时，准备重试
+2021-01-04 at 16:35:44 | INFO | 提取token：gDLTOEkHlWSoRa/n0FmD7wSNP3zlqKumnOVpzksAAAAMAAAAAF/y02ByYXcAAAAA
+2021-01-04 at 16:35:47 | DEBUG | 连接超时，准备重试
+2021-01-04 at 16:36:01 | INFO | 提取token：gNYkve+MtXK5cK4sfCTRicDv1n2044tvtbeLOSEAAAAMAAAAAF/y03FyYXcAAAAA
+2021-01-04 at 16:36:04 | DEBUG | 连接超时，准备重试
+2021-01-04 at 16:36:20 | INFO | 提取token：gDcb9cWBIFm/GoyIkgtGYc2L7rLhGgnDq8i7rP0AAAAMAAAAAF/y04NyYXcAAAAA
+2021-01-04 at 16:36:21 | DEBUG | 连接超时，准备重试
+2021-01-04 at 16:36:33 | INFO | 提取token：gPupPH/tW9tEqFh10jA4RKfK0yyRq1JngzcYHn0AAAAMAAAAAF/y05FyYXcAAAAA
+2021-01-04 at 16:36:36 | DEBUG | 连接超时，准备重试
+2021-01-04 at 16:36:49 | INFO | 提取token：gBfY3URzzDbrRDQ44V3H3rE7xW50v4H5ixFYw0IAAAAMAAAAAF/y06FyYXcAAAAA
+2021-01-04 at 16:36:50 | DEBUG | 连接超时，准备重试
+2021-01-04 at 17:56:36 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat
+2021-01-04 at 17:56:36 | ERROR | An error has been caught in function '<module>', process 'MainProcess' (23704), thread 'MainThread' (28516):
+Traceback (most recent call last):
+
+> File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 313, in <module>
+    for i in spider.get_page_url(Response):
+        │    │      │            └ ('<!doctype html><!--[if IE 8]><html data-19ax5a9jf="dingo" lang="en-us" class="a-no-js a-lt-ie10 a-lt-ie9 a-ie8"><![endif]--...
+        │    │      └ <function Spider.get_page_url at 0x000001857D33FAF0>
+        │    └ <__main__.Spider object at 0x000001857C6F6670>
+        └ ('Pieviev Cat Litter Mat-Super Size', '11,462')
+
+  File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 284, in get_page_url
+    asin = re.search('/dp/(B.*?)/', href).group(1)
+           │  │                     └ '/Bad-Page-Day-Calendar-2021/dp/1523508337/ref=sr_1_10?dchild=1&keywords=cat&qid=1609754194&sr=8-10'
+           │  └ <function search at 0x000001857CA60AF0>
+           └ <module 're' from 'D:\\software\\envs\\Demo\\lib\\re.py'>
+
+AttributeError: 'NoneType' object has no attribute 'group'
+2021-01-04 at 17:57:44 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat
+2021-01-04 at 17:57:44 | ERROR | An error has been caught in function '<module>', process 'MainProcess' (13644), thread 'MainThread' (24296):
+Traceback (most recent call last):
+
+> File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 314, in <module>
+    for i in spider.get_page_url(Response):
+        │    │      │            └ ('<!doctype html><html lang="en-us" class="a-no-js" data-19ax5a9jf="dingo"><!-- sp:feature:head-start -->\n<head><script>var ...
+        │    │      └ <function Spider.get_page_url at 0x000001F5A89EFAF0>
+        │    └ <__main__.Spider object at 0x000001F5A6206670>
+        └ ('Cats', '572')
+
+  File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 284, in get_page_url
+    asin = re.search('/dp/(B.*?)/', href).group(1)
+           │  │                     └ '/Cat-Life-Celebrating-History-Culture/dp/1948366142/ref=sr_1_3?dchild=1&keywords=cat&qid=1609754260&sr=8-3'
+           │  └ <function search at 0x000001F5A8111AF0>
+           └ <module 're' from 'D:\\software\\envs\\Demo\\lib\\re.py'>
+
+AttributeError: 'NoneType' object has no attribute 'group'
+2021-01-04 at 18:01:33 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat
+2021-01-04 at 18:01:33 | ERROR | An error has been caught in function '<module>', process 'MainProcess' (13188), thread 'MainThread' (20360):
+Traceback (most recent call last):
+
+> File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 314, in <module>
+    for i in spider.get_page_url(Response):
+             │      │            └ ('<!doctype html><html lang="en-us" class="a-no-js" data-19ax5a9jf="dingo"><!-- sp:feature:head-start -->\n<head><script>var ...
+             │      └ <function Spider.get_page_url at 0x0000019ECC14FA60>
+             └ <__main__.Spider object at 0x0000019ECB0F6670>
+
+  File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 286, in get_page_url
+    title = a.xpath(f'//a[contains(@href, {href}) and @class="a-link-normal a-text-normal"]/span/text()')[0]
+            │ └ <cyfunction _Element.xpath at 0x0000019ECB471C70>
+            └ <Element a at 0x19ecc29aa40>
+
+  File "src/lxml/etree.pyx", line 1582, in lxml.etree._Element.xpath
+  File "src/lxml/xpath.pxi", line 305, in lxml.etree.XPathElementEvaluator.__call__
+  File "src/lxml/xpath.pxi", line 225, in lxml.etree._XPathEvaluatorBase._handle_result
+
+lxml.etree.XPathEvalError: Invalid expression
+2021-01-04 at 18:02:36 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat
+2021-01-04 at 18:02:36 | ERROR | An error has been caught in function '<module>', process 'MainProcess' (21660), thread 'MainThread' (11200):
+Traceback (most recent call last):
+
+> File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 314, in <module>
+    for i in spider.get_page_url(Response):
+        │    │      │            └ ('<!doctype html><html lang="en-us" class="a-no-js" data-19ax5a9jf="dingo"><!-- sp:feature:head-start -->\n<head><script>var ...
+        │    │      └ <function Spider.get_page_url at 0x0000019FDCC1FAF0>
+        │    └ <__main__.Spider object at 0x0000019FDBFE6670>
+        └ ('Pieviev Cat Litter Mat-Super Size', '11,462')
+
+  File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 284, in get_page_url
+    asin = re.search('/dp/(B.*?)/', href).group(1)
+           │  │                     └ '/Bad-Page-Day-Calendar-2021/dp/1523508337/ref=sr_1_10?dchild=1&keywords=cat&qid=1609754553&sr=8-10'
+           │  └ <function search at 0x0000019FDC341AF0>
+           └ <module 're' from 'D:\\software\\envs\\Demo\\lib\\re.py'>
+
+AttributeError: 'NoneType' object has no attribute 'group'
+2021-01-04 at 18:04:35 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat
+2021-01-04 at 18:04:35 | ERROR | An error has been caught in function '<module>', process 'MainProcess' (16456), thread 'MainThread' (23736):
+Traceback (most recent call last):
+
+> File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 314, in <module>
+    for i in spider.get_page_url(Response):
+             │      │            └ ('<!doctype html><html lang="en-us" class="a-no-js" data-19ax5a9jf="dingo"><!-- sp:feature:head-start -->\n<head><script>var ...
+             │      └ <function Spider.get_page_url at 0x000001D09947FAF0>
+             └ <__main__.Spider object at 0x000001D098826670>
+
+  File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 284, in get_page_url
+    asin = re.search('/dp/(B.*?)/', href).group(1)
+           │  │                     └ '/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_1?ie=UTF8&adId=A03265682GYKWTV2OWXR9&url=%2FFountain-Stainless-...
+           │  └ <function search at 0x000001D098BC1AF0>
+           └ <module 're' from 'D:\\software\\envs\\Demo\\lib\\re.py'>
+
+AttributeError: 'NoneType' object has no attribute 'group'
+2021-01-04 at 18:05:19 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat
+2021-01-04 at 18:05:19 | ERROR | An error has been caught in function '<module>', process 'MainProcess' (19560), thread 'MainThread' (11436):
+Traceback (most recent call last):
+
+> File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 314, in <module>
+    for i in spider.get_page_url(Response):
+             │      │            └ ('<!doctype html><html lang="en-us" class="a-no-js" data-19ax5a9jf="dingo"><!-- sp:feature:head-start -->\n<head><script>var ...
+             │      └ <function Spider.get_page_url at 0x00000112BC26FAF0>
+             └ <__main__.Spider object at 0x00000112B9A66670>
+
+  File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 284, in get_page_url
+    asin = re.search('/dp/(B.*?)/', href).group(1)
+           │  │                     └ '/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_1?ie=UTF8&adId=A02525471OFTB08E5W4EL&url=%2FNEALLE-Green-Purple...
+           │  └ <function search at 0x00000112BB981AF0>
+           └ <module 're' from 'D:\\software\\envs\\Demo\\lib\\re.py'>
+
+AttributeError: 'NoneType' object has no attribute 'group'

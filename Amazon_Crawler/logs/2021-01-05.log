@@ -1,0 +1,179 @@
+2021-01-05 at 08:48:13 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat
+2021-01-05 at 08:48:13 | ERROR | An error has been caught in function '<module>', process 'MainProcess' (11208), thread 'MainThread' (27472):
+Traceback (most recent call last):
+
+> File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 314, in <module>
+    for i in spider.get_page_url(Response):
+        │    │      │            └ ('<!doctype html><!--[if IE 8]><html data-19ax5a9jf="dingo" lang="en-us" class="a-no-js a-lt-ie10 a-lt-ie9 a-ie8"><![endif]--...
+        │    │      └ <function Spider.get_page_url at 0x0000029DA225FAF0>
+        │    └ <__main__.Spider object at 0x0000029DA1616670>
+        └ ('Cats', '576')
+
+  File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 284, in get_page_url
+    asin = re.search('/dp/(B.*?)/', href).group(1)
+           │  │                     └ '/Cat-Life-Celebrating-History-Culture/dp/1948366142/ref=sr_1_3?dchild=1&keywords=cat&qid=1609807691&sr=8-3'
+           │  └ <function search at 0x0000029DA1971AF0>
+           └ <module 're' from 'D:\\software\\envs\\Demo\\lib\\re.py'>
+
+AttributeError: 'NoneType' object has no attribute 'group'
+2021-01-05 at 08:48:46 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat
+2021-01-05 at 08:48:46 | ERROR | An error has been caught in function '<module>', process 'MainProcess' (10740), thread 'MainThread' (16192):
+Traceback (most recent call last):
+
+> File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 314, in <module>
+    for i in spider.get_page_url(Response):
+        │    │      │            └ ('<!doctype html><html lang="en-us" class="a-no-js" data-19ax5a9jf="dingo"><!-- sp:feature:head-start -->\n<head><script>var ...
+        │    │      └ <function Spider.get_page_url at 0x00000231E301FAF0>
+        │    └ <__main__.Spider object at 0x00000231E0816670>
+        └ ('Cats', '576')
+
+  File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 284, in get_page_url
+    asin = re.search('/dp/(B.*?)/', href).group(1)
+           │  │                     └ '/Bad-Page-Day-Calendar-2021/dp/1523508337/ref=sr_1_2?dchild=1&keywords=cat&qid=1609807725&sr=8-2'
+           │  └ <function search at 0x00000231E2731AF0>
+           └ <module 're' from 'D:\\software\\envs\\Demo\\lib\\re.py'>
+
+AttributeError: 'NoneType' object has no attribute 'group'
+2021-01-05 at 08:48:57 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat
+2021-01-05 at 08:48:57 | ERROR | An error has been caught in function '<module>', process 'MainProcess' (23020), thread 'MainThread' (19760):
+Traceback (most recent call last):
+
+> File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 314, in <module>
+    for i in spider.get_page_url(Response):
+        │    │      │            └ ('<!doctype html><!--[if IE 8]><html data-19ax5a9jf="dingo" lang="en-us" class="a-no-js a-lt-ie10 a-lt-ie9 a-ie8"><![endif]--...
+        │    │      └ <function Spider.get_page_url at 0x0000022ADCCAFAF0>
+        │    └ <__main__.Spider object at 0x0000022ADA4A6670>
+        └ ('Cats', '576')
+
+  File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 284, in get_page_url
+    asin = re.search('/dp/(B.*?)/', href).group(1)
+           │  │                     └ '/Cat-Life-Celebrating-History-Culture/dp/1948366142/ref=sr_1_3?dchild=1&keywords=cat&qid=1609807736&sr=8-3'
+           │  └ <function search at 0x0000022ADC3E1AF0>
+           └ <module 're' from 'D:\\software\\envs\\Demo\\lib\\re.py'>
+
+AttributeError: 'NoneType' object has no attribute 'group'
+2021-01-05 at 08:50:56 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat
+2021-01-05 at 08:52:53 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat
+2021-01-05 at 08:52:53 | ERROR | An error has been caught in function '<module>', process 'MainProcess' (9436), thread 'MainThread' (13308):
+Traceback (most recent call last):
+
+> File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 314, in <module>
+    for i in spider.get_page_url(Response):
+        │    │      │            └ ('<!doctype html><html lang="en-us" class="a-no-js" data-19ax5a9jf="dingo"><!-- sp:feature:head-start -->\n<head><script>var ...
+        │    │      └ <function Spider.get_page_url at 0x00000241AA10FAF0>
+        │    └ <__main__.Spider object at 0x00000241A7926670>
+        └ ('Cats', '576')
+
+  File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 284, in get_page_url
+    asin = re.search('/dp/(B.*?)/', href).group(1)
+           │  │                     └ '/Bad-Page-Day-Calendar-2021/dp/1523508337/ref=sr_1_2?dchild=1&keywords=cat&qid=1609807971&sr=8-2'
+           │  └ <function search at 0x00000241A9841AF0>
+           └ <module 're' from 'D:\\software\\envs\\Demo\\lib\\re.py'>
+
+AttributeError: 'NoneType' object has no attribute 'group'
+2021-01-05 at 08:53:01 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat
+2021-01-05 at 08:53:01 | ERROR | An error has been caught in function '<module>', process 'MainProcess' (24748), thread 'MainThread' (14460):
+Traceback (most recent call last):
+
+> File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 314, in <module>
+    for i in spider.get_page_url(Response):
+        │    │      │            └ ('<!doctype html><!--[if IE 8]><html data-19ax5a9jf="dingo" lang="en-us" class="a-no-js a-lt-ie10 a-lt-ie9 a-ie8"><![endif]--...
+        │    │      └ <function Spider.get_page_url at 0x000002803093FAF0>
+        │    └ <__main__.Spider object at 0x000002802FCE6670>
+        └ ('Cats', '576')
+
+  File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 284, in get_page_url
+    asin = re.search('/dp/(B.*?)/', href).group(1)
+           │  │                     └ '/Bad-Page-Day-Calendar-2021/dp/1523508337/ref=sr_1_2?dchild=1&keywords=cat&qid=1609807980&sr=8-2'
+           │  └ <function search at 0x0000028030081AF0>
+           └ <module 're' from 'D:\\software\\envs\\Demo\\lib\\re.py'>
+
+AttributeError: 'NoneType' object has no attribute 'group'
+2021-01-05 at 09:04:23 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat
+2021-01-05 at 09:04:23 | ERROR | An error has been caught in function '<module>', process 'MainProcess' (340), thread 'MainThread' (25648):
+Traceback (most recent call last):
+
+> File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 314, in <module>
+    for i in spider.get_page_url(Response):
+             │      │            └ ('<!doctype html><html lang="en-us" class="a-no-js" data-19ax5a9jf="dingo"><!-- sp:feature:head-start -->\n<head><script>var ...
+             │      └ <function Spider.get_page_url at 0x000001D7B129FAF0>
+             └ <__main__.Spider object at 0x000001D7B0656670>
+
+  File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 284, in get_page_url
+    asin = re.search('/dp/(B.*?)/', href).group(1)
+           │  │                     └ '/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_1?ie=UTF8&adId=A097826326PS2OD2307YM&url=%2FReplacement-Water-F...
+           │  └ <function search at 0x000001D7B09B1AF0>
+           └ <module 're' from 'D:\\software\\envs\\Demo\\lib\\re.py'>
+
+AttributeError: 'NoneType' object has no attribute 'group'
+2021-01-05 at 09:04:38 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat
+2021-01-05 at 09:04:38 | ERROR | An error has been caught in function '<module>', process 'MainProcess' (26248), thread 'MainThread' (2808):
+Traceback (most recent call last):
+
+> File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 314, in <module>
+    for i in spider.get_page_url(Response):
+             │      │            └ ('<!doctype html><html lang="en-us" class="a-no-js" data-19ax5a9jf="dingo"><!-- sp:feature:head-start -->\n<head><script>var ...
+             │      └ <function Spider.get_page_url at 0x00000254748EFA60>
+             └ <__main__.Spider object at 0x0000025473CB6670>
+
+  File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 286, in get_page_url
+    title = html.xpath(f'//a[contains(@href, {href}) and @class="a-link-normal a-text-normal"]/span/text()')[0]
+            │    └ <cyfunction _Element.xpath at 0x0000025474021C70>
+            └ <Element html at 0x25475027080>
+
+  File "src/lxml/etree.pyx", line 1582, in lxml.etree._Element.xpath
+  File "src/lxml/xpath.pxi", line 305, in lxml.etree.XPathElementEvaluator.__call__
+  File "src/lxml/xpath.pxi", line 225, in lxml.etree._XPathEvaluatorBase._handle_result
+
+lxml.etree.XPathEvalError: Invalid expression
+2021-01-05 at 09:05:38 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat
+2021-01-05 at 09:05:38 | ERROR | An error has been caught in function '<module>', process 'MainProcess' (20984), thread 'MainThread' (18388):
+Traceback (most recent call last):
+
+> File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 314, in <module>
+    for i in spider.get_page_url(Response):
+        │    │      │            └ ('<!doctype html><html lang="en-us" class="a-no-js" data-19ax5a9jf="dingo"><!-- sp:feature:head-start -->\n<head><script>var ...
+        │    │      └ <function Spider.get_page_url at 0x00000210C9DAFA60>
+        │    └ <__main__.Spider object at 0x00000210C9166670>
+        └ ('Purina FortiFlora Cat Probiotic Powder Supplement, Pro Plan Veterinary Supplements Probiotic Cat Supplement', '7,725')
+
+  File "D:/Demo/Amazon_Crawler/Spider/crawl_info.py", line 287, in get_page_url
+    reviews = html.xpath(f'//a[contains(@href, "{href}") and @class="a-link-normal"]/span/text()')[0]
+              │    └ <cyfunction _Element.xpath at 0x00000210C94D1C70>
+              └ <Element html at 0x210ca4e7080>
+
+IndexError: list index out of range
+2021-01-05 at 09:07:21 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat
+2021-01-05 at 09:13:01 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat
+2021-01-05 at 09:32:02 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat
+2021-01-05 at 09:32:18 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat
+2021-01-05 at 09:32:49 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/home-garden/3733491/ref=pd_zg_hrsr_home-garden
+2021-01-05 at 09:37:04 | INFO | 提取token：gHaPmAtcM1wkG7pRPmZ43ceynyOEddFcrtst0RQAAAAMAAAAAF/zwsByYXcAAAAA
+2021-01-05 at 09:37:10 | INFO | 成功获取页面：https://www.amazon.com/dp/B07YXTMPS4
+2021-01-05 at 09:38:09 | INFO | 提取token：gBUiZvlVm6acS9gEUSvLjF7QzPdT8S4ZTVaJZt0AAAAMAAAAAF/zwwByYXcAAAAA
+2021-01-05 at 09:38:13 | INFO | 成功获取页面：https://www.amazon.com/dp/B07YXTMPS4
+2021-01-05 at 09:38:51 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat&page=1
+2021-01-05 at 09:38:55 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat&page=2
+2021-01-05 at 09:38:59 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat&page=3
+2021-01-05 at 09:39:24 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/home-garden/3733491
+2021-01-05 at 09:39:27 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/home-garden/3733491
+2021-01-05 at 09:39:30 | INFO | 成功获取页面：https://www.amazon.com/Best-Sellers-Home-Kitchen-Living-Room-Chairs/zgbs/home-garden/3733491/ref=zg_bs_pg_2/130-2741805-8579352?_encoding=UTF8&pg=2
+2021-01-05 at 09:43:17 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/home-garden/3733491
+2021-01-05 at 09:43:20 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/home-garden/3733491
+2021-01-05 at 09:43:22 | INFO | 成功获取页面：https://www.amazon.com/Best-Sellers-Home-Kitchen-Living-Room-Chairs/zgbs/home-garden/3733491/ref=zg_bs_pg_2/147-1592258-2833216?_encoding=UTF8&pg=2
+2021-01-05 at 09:45:54 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/home-garden/3733491
+2021-01-05 at 09:45:56 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/home-garden/3733491
+2021-01-05 at 09:46:01 | INFO | 成功获取页面：https://www.amazon.com/Best-Sellers-Home-Kitchen-Living-Room-Chairs/zgbs/home-garden/3733491/ref=zg_bs_pg_2/146-7572563-2642248?_encoding=UTF8&pg=2
+2021-01-05 at 09:48:44 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/home-garden/3733491
+2021-01-05 at 09:48:47 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/home-garden/3733491
+2021-01-05 at 09:48:50 | INFO | 成功获取页面：https://www.amazon.com/Best-Sellers-Home-Kitchen-Living-Room-Chairs/zgbs/home-garden/3733491/ref=zg_bs_pg_2/146-3617475-8256165?_encoding=UTF8&pg=2
+2021-01-05 at 10:11:58 | INFO | 提取token：gKg7GGIS0K2as+AR7C1gTqENO8iZJfqRtDvWBKsAAAAMAAAAAF/zyuxyYXcAAAAA
+2021-01-05 at 10:12:04 | INFO | 成功获取页面：https://www.amazon.com/dp/B07YXTMPS4
+2021-01-05 at 10:12:38 | INFO | 提取token：gOKSq22k8d+yD2JesEaLyQuY4rWyf7syagjIqL0AAAAMAAAAAF/zyxVyYXcAAAAA
+2021-01-05 at 10:12:43 | INFO | 成功获取页面：https://www.amazon.com/dp/B07YXTMPS4
+2021-01-05 at 10:12:58 | INFO | 提取token：gJOoXBs9CfbkJqY9QWN8XcWcOxulAlRsJNpqF/QAAAAMAAAAAF/zyylyYXcAAAAA
+2021-01-05 at 10:13:02 | INFO | 成功获取页面：https://www.amazon.com/dp/B07YXTMPS4
+2021-01-05 at 10:17:13 | INFO | 提取token：gNhT0OsKBQK7nHHb6a8nMPx7nEUnGGRRZe0C1aMAAAAMAAAAAF/zzChyYXcAAAAA
+2021-01-05 at 10:17:18 | INFO | 成功获取页面：https://www.amazon.com/dp/B07YXTMPS4/
+2021-01-05 at 10:17:40 | INFO | 提取token：gOPXpHtyywmLssQTLQ1hZS5B3UOmxvK9WrgOdW8AAAAMAAAAAF/zzERyYXcAAAAA
+2021-01-05 at 10:17:44 | INFO | 成功获取页面：https://www.amazon.com/dp/B07YXTMPS4/

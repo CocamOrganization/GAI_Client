@@ -1,0 +1,190 @@
+2020-12-31 at 10:45:13 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat
+2020-12-31 at 13:57:49 | INFO | 提取token：gLs5wuuPCRi4icBGN1AIXNoPi3qPVEE9OYRv8UsAAAAMAAAAAF/taFtyYXcAAAAA
+2020-12-31 at 13:57:59 | INFO | 成功获取页面：https://www.amazon.com/s?k=cat
+2020-12-31 at 16:28:59 | INFO | 提取token：gGzD8ERk/5d5W1qF0p8sr/LBUHLGT769TtWGPnoAAAAMAAAAAF/ti8hyYXcAAAAA
+2020-12-31 at 16:29:02 | INFO | 成功获取页面：https://www.amazon.com/s?k=patio+chairs&ref=nb_sb_noss_1
+2020-12-31 at 16:29:07 | INFO | 提取token：gBAXtYT8CHxQjxwi5dJt+NDac0LCJop82UjVJMwAAAAMAAAAAF/ti9ByYXcAAAAA
+2020-12-31 at 16:29:12 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_1?ie=UTF8&adId=A05070862MEWKBNKSFK2B&url=%2FGrand-patio-Recliner-All-Weather-Integrated%2Fdp%2FB082NTSY1L%2Fref%3Dsr_1_1_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609403340%26sr%3D8-1-spons%26psc%3D1&qualifier=1609403339&id=2964930674239634&widgetName=sp_atf
+2020-12-31 at 16:29:15 | INFO | 提取token：gDgqbnPIC9FfQYzD7iIFcM5xEwOo1BL17DTUH8sAAAAMAAAAAF/ti9lyYXcAAAAA
+2020-12-31 at 16:29:21 | INFO | 成功获取页面：https://www.amazon.com//Barton-Hanging-Resistant-Cushion-Relaxing/dp/B07S9FD994/ref=sr_1_2?dchild=1&keywords=patio+chairs&qid=1609403340&sr=8-2
+2020-12-31 at 16:29:24 | INFO | 提取token：gF/VWvkdO46wX94G55LJIa7vNlLUyMmq8e32siQAAAAMAAAAAF/ti+FyYXcAAAAA
+2020-12-31 at 16:29:29 | INFO | 成功获取页面：https://www.amazon.com//Flamaker-Pieces-Outdoor-Furniture-Conversation/dp/B07DJ6J6GD/ref=sr_1_3?dchild=1&keywords=patio+chairs&qid=1609403340&sr=8-3
+2020-12-31 at 16:29:31 | INFO | 提取token：gIo+EUb3GPsUdwedAUwfUTpN1caD9dklzavjkeUAAAAMAAAAAF/ti+pyYXcAAAAA
+2020-12-31 at 16:29:36 | INFO | 成功获取页面：https://www.amazon.com//Outdoors-Wicker-Dining-Stackable-Outdoor-Multibrown/dp/B08BRJBCH1/ref=sr_1_4?dchild=1&keywords=patio+chairs&qid=1609403340&sr=8-4
+2020-12-31 at 16:29:38 | INFO | 提取token：gOgibodgBXSgBaXRj60a12BSfY1K06Llu2jsqIgAAAAMAAAAAF/ti/ByYXcAAAAA
+2020-12-31 at 16:29:41 | DEBUG | Page Not Found: https://www.amazon.com/https://aax-us-east.amazon-adsystem.com/x/c/QkkzdPTMY2vAA8OW3HHMCEUAAAF2t-oVWQEAAAH2AeWBw1A/https://www.amazon.com/dp/B0765VTBLV?pd_rd_i=B0765VTBLV&pd_rd_w=TUqwR&pf_rd_p=2e62cf0a-1323-46ac-bbb9-19dc851997c6&pd_rd_wg=Y2F3L&pf_rd_r=8DASW9CW07KVW4SANWWS&pd_rd_r=e676800b-c1ff-4ec0-a5be-f117f37b1992
+2020-12-31 at 16:29:41 | ERROR | An error has been caught in function 'get_detail_inf', process 'MainProcess' (18440), thread 'MainThread' (1820):
+Traceback (most recent call last):
+
+  File "D:/Demo/Amazon_Crawler/Getter.py", line 41, in <module>
+    detail = getter.get_detail_inf(request)
+             │      │              └ ('https://www.amazon.com/https://aax-us-east.amazon-adsystem.com/x/c/QkkzdPTMY2vAA8OW3HHMCEUAAAF2t-oVWQEAAAH2AeWBw1A/https://...
+             │      └ <function Getter.get_detail_inf at 0x000002100CE6FEE0>
+             └ <__main__.Getter object at 0x000002107C235430>
+
+> File "D:/Demo/Amazon_Crawler/Getter.py", line 33, in get_detail_inf
+    detail_dict = spider.get_detail_inf(response)
+                  │      │              └ (None, 'https://www.amazon.com/https://aax-us-east.amazon-adsystem.com/x/c/QkkzdPTMY2vAA8OW3HHMCEUAAAF2t-oVWQEAAAH2AeWBw1A/ht...
+                  │      └ <function Spider.get_detail_inf at 0x000002107D508D30>
+                  └ <Spider.crawl_info.Spider object at 0x000002107C0F6130>
+
+  File "D:\Demo\Amazon_Crawler\Spider\crawl_info.py", line 52, in get_detail_inf
+    response = etree.HTML(text)
+               │     │    └ None
+               │     └ <cyfunction HTML at 0x000002107D4D3860>
+               └ <module 'lxml.etree' from 'D:\\software\\envs\\Demo\\lib\\site-packages\\lxml\\etree.cp38-win_amd64.pyd'>
+
+  File "src/lxml/etree.pyx", line 3185, in lxml.etree.HTML
+  File "src/lxml/parser.pxi", line 1895, in lxml.etree._parseMemoryDocument
+
+ValueError: can only parse strings
+2020-12-31 at 16:29:43 | INFO | 提取token：gJsmRY/5YZlRzDmOPW7dYW3Fk4ftFOuda8mhNmUAAAAMAAAAAF/ti/ZyYXcAAAAA
+2020-12-31 at 16:29:49 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_search_thematic_aps_sr_pg1_1?ie=UTF8&adId=A02066443APZFLW8529J5&url=%2FJUMMICO-Stackable-Industrial-Vintage-Indoor-Outdoor%2Fdp%2FB07XH21JPX%2Fref%3Dsxin_10_pa_sp_search_thematic_sspa%3Fcv_ct_cx%3Dpatio%2Bchairs%26dchild%3D1%26keywords%3Dpatio%2Bchairs%26pd_rd_i%3DB07XH21JPX%26pd_rd_r%3De676800b-c1ff-4ec0-a5be-f117f37b1992%26pd_rd_w%3DUDUKY%26pd_rd_wg%3DY2F3L%26pf_rd_p%3D4b3ae3bc-a81d-4118-8d1e-318bd2f6c8aa%26pf_rd_r%3D8DASW9CW07KVW4SANWWS%26qid%3D1609403340%26sr%3D1-1-a8004193-6951-43f6-852a-aff7dbba9115-spons%26psc%3D1&qualifier=1609403340&id=869900374891531&widgetName=sp_search_thematic
+2020-12-31 at 16:29:52 | INFO | 提取token：gLY/n7kOl4njKSlCqwbutgspk6vkW/nJXrOUPMwAAAAMAAAAAF/ti/5yYXcAAAAA
+2020-12-31 at 16:29:57 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_search_thematic_aps_sr_pg1_2?ie=UTF8&adId=A04111412MIK3ALV7UWDW&url=%2FLuckyberry-Outdoor-Indoor-Wicker-Hanging%2Fdp%2FB07TYL3ZX6%2Fref%3Dsxin_10_pa_sp_search_thematic_sspa%3Fcv_ct_cx%3Dpatio%2Bchairs%26dchild%3D1%26keywords%3Dpatio%2Bchairs%26pd_rd_i%3DB07TYL3ZX6%26pd_rd_r%3De676800b-c1ff-4ec0-a5be-f117f37b1992%26pd_rd_w%3DUDUKY%26pd_rd_wg%3DY2F3L%26pf_rd_p%3D4b3ae3bc-a81d-4118-8d1e-318bd2f6c8aa%26pf_rd_r%3D8DASW9CW07KVW4SANWWS%26qid%3D1609403340%26sr%3D1-2-a8004193-6951-43f6-852a-aff7dbba9115-spons%26psc%3D1&qualifier=1609403340&id=869900374891531&widgetName=sp_search_thematic
+2020-12-31 at 16:30:00 | INFO | 提取token：gIFcFp61C5vo7UWeY7tZ+64ZRnGPCzF4XHNu77sAAAAMAAAAAF/tjAZyYXcAAAAA
+2020-12-31 at 16:46:19 | INFO | 提取token：gBOYDsDxfOuyIKX14gdyev+Yg49KJb4DWfA/fFwAAAAMAAAAAF/tj9pyYXcAAAAA
+2020-12-31 at 16:46:25 | INFO | 成功获取页面：https://www.amazon.com/s?k=patio+chairs&ref=nb_sb_noss_1
+2020-12-31 at 16:46:27 | INFO | 提取token：gB/Vs9Rqhbxi3T0bO64LgvBb0/4R03RLcEz+JsMAAAAMAAAAAF/tj+FyYXcAAAAA
+2020-12-31 at 16:46:36 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_1?ie=UTF8&adId=A00510693S235OSZ6QRAD&url=%2FPHI-VILLA-Outdoor-Furniture-Cushioned%2Fdp%2FB07B7C54RY%2Fref%3Dsr_1_1_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609404381%26sr%3D8-1-spons%26psc%3D1&qualifier=1609404381&id=3076932694368175&widgetName=sp_atf
+2020-12-31 at 16:46:39 | INFO | 提取token：gA9GYfWvNXupGVxytMXp3hxDVvfIuhOaAFd71AMAAAAMAAAAAF/tj+5yYXcAAAAA
+2020-12-31 at 16:51:55 | INFO | 提取token：gGKfyjlp0wwYzKqgYH4goxCGRTQoOdjDI2ahm3IAAAAMAAAAAF/tkSlyYXcAAAAA
+2020-12-31 at 16:51:59 | INFO | 成功获取页面：https://www.amazon.com/s?k=patio+chairs&ref=nb_sb_noss_1
+2020-12-31 at 16:52:01 | INFO | 提取token：gEQGvZMgo0tCMFT8FCmChLUf37E79FnX+80sT0cAAAAMAAAAAF/tkTByYXcAAAAA
+2020-12-31 at 16:52:06 | INFO | 成功获取页面：https://www.amazon.com//gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_aps_sr_pg1_1?ie=UTF8&adId=A0673638PXFUCSYLW6FS&url=%2FLUCKYBERRY-Swivel-Chair-Bistro-Chairs%2Fdp%2FB07S3DNQ65%2Fref%3Dsr_1_1_sspa%3Fdchild%3D1%26keywords%3Dpatio%2Bchairs%26qid%3D1609404716%26sr%3D8-1-spons%26psc%3D1&qualifier=1609404716&id=5177522779294745&widgetName=sp_atf
+2020-12-31 at 16:52:10 | INFO | 提取token：gIuR4wzOoQX6/Dhny6cvHaD4/r9pOaniB2QD6H8AAAAMAAAAAF/tkThyYXcAAAAA
+2020-12-31 at 16:52:15 | INFO | 成功获取页面：https://www.amazon.com//Flamaker-Pieces-Outdoor-Furniture-Conversation/dp/B07DJ6J6GD/ref=sr_1_2?dchild=1&keywords=patio+chairs&qid=1609404716&sr=8-2
+2020-12-31 at 16:52:18 | INFO | 提取token：gIGhApypdXSIFZXe31BYe5/TKkItrtSV2QkZrMkAAAAMAAAAAF/tkUByYXcAAAAA
+2020-12-31 at 16:52:27 | INFO | 成功获取页面：https://www.amazon.com//Outdoors-All-Weather-Spring-Outdoor-Backyard/dp/B08CH3C8SG/ref=sr_1_3?dchild=1&keywords=patio+chairs&qid=1609404716&sr=8-3
+2020-12-31 at 16:52:31 | INFO | 提取token：gB9Xjy7HBk3Ai2eaYgaZi9EGPI0AjqumHa/nrFUAAAAMAAAAAF/tkU1yYXcAAAAA
+2020-12-31 at 16:52:36 | INFO | 成功获取页面：https://www.amazon.com//Flash-Furniture-Outdoor-Comfort-Material/dp/B08DHGP5BL/ref=sr_1_4?dchild=1&keywords=patio+chairs&qid=1609404716&sr=8-4
+2020-12-31 at 16:52:40 | INFO | 提取token：gPhwUR+2bIFtx3jBIp2eOACUwoN4ST+mQCm1Z7sAAAAMAAAAAF/tkVVyYXcAAAAA
+2020-12-31 at 16:52:49 | INFO | 成功获取页面：https://www.amazon.com//AmazonBasics-Dining-Chair-Patio-Cover/dp/B00LFIZ4RU/ref=sxin_9_pb?cv_ct_cx=patio+chairs&dchild=1&keywords=patio+chairs&pd_rd_i=B00LFIZ4RU&pd_rd_r=3a641f2c-45fa-4360-9769-3643e4e8730d&pd_rd_w=oVG1O&pd_rd_wg=H3hKX&pf_rd_p=ffb450f7-bfad-4e7e-95e8-f2bd147e99a4&pf_rd_r=9ER1P5KR3ZENEAJQJJCH&qid=1609404716&sr=1-1-8065ff8c-2587-4a7f-b8da-1df8b2563c11
+2020-12-31 at 16:52:52 | INFO | 提取token：gCry5g4nBZY1/1DNJe83YEi5V3wfgTqAE287S4cAAAAMAAAAAF/tkWJyYXcAAAAA
+2020-12-31 at 16:53:02 | INFO | 成功获取页面：https://www.amazon.com//AmazonBasics-High-Back-Chair-Outdoor-Furniture/dp/B00S13DBGS/ref=sxin_9_pb?cv_ct_cx=patio+chairs&dchild=1&keywords=patio+chairs&pd_rd_i=B00S13DBGS&pd_rd_r=3a641f2c-45fa-4360-9769-3643e4e8730d&pd_rd_w=oVG1O&pd_rd_wg=H3hKX&pf_rd_p=ffb450f7-bfad-4e7e-95e8-f2bd147e99a4&pf_rd_r=9ER1P5KR3ZENEAJQJJCH&qid=1609404716&sr=1-2-8065ff8c-2587-4a7f-b8da-1df8b2563c11
+2020-12-31 at 16:53:05 | INFO | 提取token：gNHw7SpYaGCdWekG8JYx7BdE6rFpjR6Nhp0KOc4AAAAMAAAAAF/tkW9yYXcAAAAA
+2020-12-31 at 16:53:11 | INFO | 成功获取页面：https://www.amazon.com//AmazonBasics-55-514-016201-11-Adirondack-Chair-Patio-Cover/dp/B00S13DEMY/ref=sxin_9_pb?cv_ct_cx=patio+chairs&dchild=1&keywords=patio+chairs&pd_rd_i=B00S13DEMY&pd_rd_r=3a641f2c-45fa-4360-9769-3643e4e8730d&pd_rd_w=oVG1O&pd_rd_wg=H3hKX&pf_rd_p=ffb450f7-bfad-4e7e-95e8-f2bd147e99a4&pf_rd_r=9ER1P5KR3ZENEAJQJJCH&qid=1609404716&sr=1-3-8065ff8c-2587-4a7f-b8da-1df8b2563c11
+2020-12-31 at 16:53:14 | INFO | 提取token：gFOspm+OL7N3ndB/i1YsBGZI0Vrkb+knM/RKdIkAAAAMAAAAAF/tkXhyYXcAAAAA
+2020-12-31 at 16:53:25 | INFO | 成功获取页面：https://www.amazon.com//AmazonBasics-Padded-Gravity-Chair-Black/dp/B07LFLT47G/ref=sxin_9_pb?cv_ct_cx=patio+chairs&dchild=1&keywords=patio+chairs&pd_rd_i=B07LFLT47G&pd_rd_r=3a641f2c-45fa-4360-9769-3643e4e8730d&pd_rd_w=oVG1O&pd_rd_wg=H3hKX&pf_rd_p=ffb450f7-bfad-4e7e-95e8-f2bd147e99a4&pf_rd_r=9ER1P5KR3ZENEAJQJJCH&qid=1609404716&sr=1-4-8065ff8c-2587-4a7f-b8da-1df8b2563c11
+2020-12-31 at 16:53:27 | INFO | 提取token：gCLxCkkDm5d5UExfRMHgbWGWcUHQfUAmlwr01rEAAAAMAAAAAF/tkYZyYXcAAAAA
+2020-12-31 at 16:53:32 | INFO | 成功获取页面：https://www.amazon.com//AmazonBasics-56-185-016701-PL-Highback-Chair-Patio/dp/B07CYT5K6P/ref=sxin_9_pb?cv_ct_cx=patio+chairs&dchild=1&keywords=patio+chairs&pd_rd_i=B07CYT5K6P&pd_rd_r=3a641f2c-45fa-4360-9769-3643e4e8730d&pd_rd_w=oVG1O&pd_rd_wg=H3hKX&pf_rd_p=ffb450f7-bfad-4e7e-95e8-f2bd147e99a4&pf_rd_r=9ER1P5KR3ZENEAJQJJCH&qid=1609404716&sr=1-5-8065ff8c-2587-4a7f-b8da-1df8b2563c11
+2020-12-31 at 16:53:36 | INFO | 提取token：gP+vr8QJxsGdASrFzTe06ovNDr4v269v5qxwORQAAAAMAAAAAF/tkY1yYXcAAAAA
+2020-12-31 at 16:53:43 | INFO | 成功获取页面：https://www.amazon.com//Outdoor-Restaurant-Stackable-Capacity-Kitchen/dp/B07RYTQ257/ref=sxin_10?ascsubtag=amzn1.osa.d61210d2-cbcd-438e-a219-ef3db6558e20.ATVPDKIKX0DER.en_US&creativeASIN=B07RYTQ257&cv_ct_cx=patio+chairs&cv_ct_id=amzn1.osa.d61210d2-cbcd-438e-a219-ef3db6558e20.ATVPDKIKX0DER.en_US&cv_ct_pg=search&cv_ct_we=asin&cv_ct_wn=osp-single-source-earns-comm&dchild=1&keywords=patio+chairs&linkCode=oas&pd_rd_i=B07RYTQ257&pd_rd_r=3a641f2c-45fa-4360-9769-3643e4e8730d&pd_rd_w=k2Se4&pd_rd_wg=H3hKX&pf_rd_p=f3b5998c-f375-43c3-8b6f-7e234416634e&pf_rd_r=9ER1P5KR3ZENEAJQJJCH&qid=1609404716&sr=1-1-64f3a41a-73ca-403a-923c-8152c45485fe&tag=pur0e40b-20
+2020-12-31 at 16:53:46 | INFO | 提取token：gKViZE47HhA68faK/dJwP3GahFaE5n92bai37lQAAAAMAAAAAF/tkZhyYXcAAAAA
+2020-12-31 at 16:53:50 | INFO | 成功获取页面：https://www.amazon.com//Best-Choice-Products-Outdoor-Furniture/dp/B01F8110LS/ref=sxin_10?ascsubtag=amzn1.osa.d61210d2-cbcd-438e-a219-ef3db6558e20.ATVPDKIKX0DER.en_US&creativeASIN=B01F8110LS&cv_ct_cx=patio+chairs&cv_ct_id=amzn1.osa.d61210d2-cbcd-438e-a219-ef3db6558e20.ATVPDKIKX0DER.en_US&cv_ct_pg=search&cv_ct_we=asin&cv_ct_wn=osp-single-source-earns-comm&dchild=1&keywords=patio+chairs&linkCode=oas&pd_rd_i=B01F8110LS&pd_rd_r=3a641f2c-45fa-4360-9769-3643e4e8730d&pd_rd_w=k2Se4&pd_rd_wg=H3hKX&pf_rd_p=f3b5998c-f375-43c3-8b6f-7e234416634e&pf_rd_r=9ER1P5KR3ZENEAJQJJCH&qid=1609404716&sr=1-2-64f3a41a-73ca-403a-923c-8152c45485fe&tag=pur0e40b-20
+2020-12-31 at 16:53:54 | INFO | 提取token：gLR1puFMecg4CztPsDe3ftQvSQ1FYueEjzw/mnMAAAAMAAAAAF/tkaByYXcAAAAA
+2020-12-31 at 16:54:00 | INFO | 成功获取页面：https://www.amazon.com//Flash-Furniture-Rattan-Indoor-Outdoor-Restaurant/dp/B01HMWRRHM/ref=sxin_10?ascsubtag=amzn1.osa.d61210d2-cbcd-438e-a219-ef3db6558e20.ATVPDKIKX0DER.en_US&creativeASIN=B01HMWRRHM&cv_ct_cx=patio+chairs&cv_ct_id=amzn1.osa.d61210d2-cbcd-438e-a219-ef3db6558e20.ATVPDKIKX0DER.en_US&cv_ct_pg=search&cv_ct_we=asin&cv_ct_wn=osp-single-source-earns-comm&dchild=1&keywords=patio+chairs&linkCode=oas&pd_rd_i=B01HMWRRHM&pd_rd_r=3a641f2c-45fa-4360-9769-3643e4e8730d&pd_rd_w=k2Se4&pd_rd_wg=H3hKX&pf_rd_p=f3b5998c-f375-43c3-8b6f-7e234416634e&pf_rd_r=9ER1P5KR3ZENEAJQJJCH&qid=1609404716&sr=1-3-64f3a41a-73ca-403a-923c-8152c45485fe&tag=pur0e40b-20
+2020-12-31 at 16:54:03 | INFO | 提取token：gKXJ6bwV1LZOGJWBH6jJ2MZFORWrJClz48JITLAAAAAMAAAAAF/tkalyYXcAAAAA
+2020-12-31 at 16:54:08 | INFO | 成功获取页面：https://www.amazon.com//Furmax-Indoor-Outdoor-Stackable-Classic-Trattoria/dp/B07558553P/ref=sxin_10?ascsubtag=amzn1.osa.d61210d2-cbcd-438e-a219-ef3db6558e20.ATVPDKIKX0DER.en_US&creativeASIN=B07558553P&cv_ct_cx=patio+chairs&cv_ct_id=amzn1.osa.d61210d2-cbcd-438e-a219-ef3db6558e20.ATVPDKIKX0DER.en_US&cv_ct_pg=search&cv_ct_we=asin&cv_ct_wn=osp-single-source-earns-comm&dchild=1&keywords=patio+chairs&linkCode=oas&pd_rd_i=B07558553P&pd_rd_r=3a641f2c-45fa-4360-9769-3643e4e8730d&pd_rd_w=k2Se4&pd_rd_wg=H3hKX&pf_rd_p=f3b5998c-f375-43c3-8b6f-7e234416634e&pf_rd_r=9ER1P5KR3ZENEAJQJJCH&qid=1609404716&sr=1-4-64f3a41a-73ca-403a-923c-8152c45485fe&tag=pur0e40b-20
+2020-12-31 at 16:54:10 | INFO | 提取token：gGBnFMSHOZcOZmMmQrNMdicj2CgtipGWwKwFV68AAAAMAAAAAF/tkbByYXcAAAAA
+2020-12-31 at 16:54:18 | INFO | 成功获取页面：https://www.amazon.com//Best-Choice-Products-Adjustable-Recliners/dp/B086JFWSXN/ref=sr_1_5?dchild=1&keywords=patio+chairs&qid=1609404716&sr=8-5
+2020-12-31 at 16:54:21 | INFO | 提取token：gDjqHUOgOlpPRy+DU/7valK4VDwZlY5FO4Jo9wkAAAAMAAAAAF/tkbtyYXcAAAAA
+2020-12-31 at 16:54:26 | INFO | 成功获取页面：https://www.amazon.com//Keter-Weather-Outdoor-Conversation-Furniture/dp/B00K8945QS/ref=sr_1_6?dchild=1&keywords=patio+chairs&qid=1609404716&sr=8-6
+2020-12-31 at 16:54:29 | INFO | 提取token：gA7vU7NUkvXrJ68Z4Otqm3R10k6Xv3EIc87Lb5QAAAAMAAAAAF/tkcRyYXcAAAAA
+2020-12-31 at 16:54:34 | INFO | 成功获取页面：https://www.amazon.com//Flash-Furniture-Rattan-Indoor-Outdoor-Restaurant/dp/B01HMWRRHM/ref=sr_1_7?dchild=1&keywords=patio+chairs&qid=1609404716&sr=8-7
+2020-12-31 at 16:54:37 | INFO | 提取token：gG1YKioB/qkNkO7+RNfFAXIy2jXvaazHVIabJPcAAAAMAAAAAF/tkctyYXcAAAAA
+2020-12-31 at 16:54:44 | INFO | 成功获取页面：https://www.amazon.com//Outdoors-Wicker-Dining-Stackable-Outdoor-Multibrown/dp/B08BRJBCH1/ref=sr_1_8?dchild=1&keywords=patio+chairs&qid=1609404716&sr=8-8
+2020-12-31 at 16:54:48 | INFO | 提取token：gIPHPRux66MF8mbxlJTA0vv70tT3Kcd94hTTZOoAAAAMAAAAAF/tkdZyYXcAAAAA
+2020-12-31 at 16:54:54 | INFO | 成功获取页面：https://www.amazon.com//Flash-Furniture-Rattan-Indoor-Outdoor-Restaurant/dp/B01HMWRNUS/ref=sr_1_9?dchild=1&keywords=patio+chairs&qid=1609404716&sr=8-9
+2020-12-31 at 16:54:57 | INFO | 提取token：gB0GB1vDN5HkeI58+IPcZakFmx1I3njzj5M6zXgAAAAMAAAAAF/tkd9yYXcAAAAA
+2020-12-31 at 16:55:50 | INFO | 成功获取页面：https://www.amazon.com/gp/bestsellers/lawn-garden/ref=pd_zg_ts_lawn-garden
+2020-12-31 at 16:55:54 | INFO | 提取token：gFywvFfk2EE0pkQejacHyJuDpJS+HX2mF/wRlewAAAAMAAAAAF/tkhhyYXcAAAAA
+2020-12-31 at 16:55:59 | INFO | 成功获取页面：https://www.amazon.com/ThermoPro-TP50-Digital-Thermometer-Temperature/dp/B01H1R0K68/ref=zg_bs_lawn-garden_1/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:56:02 | INFO | 提取token：gHdhxrjanni2lfu701e++ZWxKNVwGUxlke6SuSwAAAAMAAAAAF/tkiByYXcAAAAA
+2020-12-31 at 16:56:06 | INFO | 成功获取页面：https://www.amazon.com/Traeger-pellet-grills-PEL307-Pellets/dp/B00201BFX8/ref=zg_bs_lawn-garden_2/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:56:10 | INFO | 提取token：gBtEGAJanoYAYcaywpjQgNaLVfHf2iBk9HWnnVMAAAAMAAAAAF/tkidyYXcAAAAA
+2020-12-31 at 16:56:16 | INFO | 成功获取页面：https://www.amazon.com/Wagners-52001-Classic-Wild-5-Pound/dp/B004477AIK/ref=zg_bs_lawn-garden_3/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:56:19 | INFO | 提取token：gCVwIz/PMqRAs1JGXeQN+F325Al5w6rBlrVxTB8AAAAMAAAAAF/tkjFyYXcAAAAA
+2020-12-31 at 16:56:24 | INFO | 成功获取页面：https://www.amazon.com/Miracle-Gro-Indoor-Plant-Spikes-1-1-Ounce/dp/B000HAAOKY/ref=zg_bs_lawn-garden_4/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:56:27 | INFO | 提取token：gA9WVRLY7uaozKUVhpjsHogPo48vi618z//EZ3YAAAAMAAAAAF/tkjpyYXcAAAAA
+2020-12-31 at 16:56:33 | INFO | 成功获取页面：https://www.amazon.com/Premium-Powder-Coated-Weather-Proof-Anti-Wind-Stoppers/dp/B0742G9C3D/ref=zg_bs_lawn-garden_5/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:56:36 | INFO | 提取token：gF/8MdOVDBnLQOolrie8059LckUhtkWy/ZOWgBAAAAAMAAAAAF/tkkJyYXcAAAAA
+2020-12-31 at 16:56:41 | INFO | 成功获取页面：https://www.amazon.com/Green-Gobbler-Treatment-Magnesium-Chloride/dp/B07HNV2Y1F/ref=zg_bs_lawn-garden_6/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:56:46 | INFO | 提取token：gIA34nNIlYg0YFwSwMGPvKtBMesdMD/Aq1qCFCoAAAAMAAAAAF/tkkxyYXcAAAAA
+2020-12-31 at 16:56:52 | INFO | 成功获取页面：https://www.amazon.com/ThermoPro-TP49-Hygrometer-Thermometer-Temperature/dp/B07WMF95DD/ref=zg_bs_lawn-garden_7/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:56:55 | INFO | 提取token：gH/3bWseKRh2Nq4NLjwkuOA3Xftf4RK49nKWz3MAAAAMAAAAAF/tklVyYXcAAAAA
+2020-12-31 at 16:57:00 | INFO | 成功获取页面：https://www.amazon.com/GREBSTK-Pitchforks-Stainless-Steel-Handle/dp/B08H22GLTT/ref=zg_bs_lawn-garden_8/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:57:05 | INFO | 提取token：gAR/6X4l8TPNbApaMbFe3uSTAOiOOYcYjAN8IDUAAAAMAAAAAF/tkl5yYXcAAAAA
+2020-12-31 at 16:57:13 | INFO | 成功获取页面：https://www.amazon.com/Catchmaster-72MAX-Pest-36Count-White/dp/B007E83LUM/ref=zg_bs_lawn-garden_9/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:57:17 | INFO | 提取token：gO8j/otFxkuEXkiClnO7LSBlQWpYYezcr6pLoeEAAAAMAAAAAF/tkmtyYXcAAAAA
+2020-12-31 at 16:57:21 | INFO | 成功获取页面：https://www.amazon.com/Wagners-76025-Black-Sunflower-10-Pound/dp/B0030ZZY58/ref=zg_bs_lawn-garden_10/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:57:24 | INFO | 提取token：gACzvuvHrm+3khQzThDyXy/8MoZ4hlDncHAbK8EAAAAMAAAAAF/tknJyYXcAAAAA
+2020-12-31 at 16:57:29 | INFO | 成功获取页面：https://www.amazon.com/advion-Plungers-Cockroach-Insecticide-Australian/dp/B00730QW70/ref=zg_bs_lawn-garden_11/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:57:33 | INFO | 提取token：gAoJXxkDG3+G6bQ54rc/hAhzxIliN8p0sMulnfcAAAAMAAAAAF/tkntyYXcAAAAA
+2020-12-31 at 16:57:38 | INFO | 成功获取页面：https://www.amazon.com/Snow-Joe-SJ-SHLV01-Shovelution-Strain-Reducing/dp/B01LXEQ6UM/ref=zg_bs_lawn-garden_12/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:57:41 | INFO | 提取token：gGfGCCx5kZSR+QnhfImaQDqeiO8wxStmRaf09HgAAAAMAAAAAF/tkoNyYXcAAAAA
+2020-12-31 at 16:57:48 | INFO | 成功获取页面：https://www.amazon.com/Gorilla-Grip-Original-Waterproof-Low-Profile/dp/B07JKFTYHS/ref=zg_bs_lawn-garden_13/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:57:51 | INFO | 提取token：gKWtWJUTSEVp7Z4z3OWoXr/F6HAmkHiFhmsZAi4AAAAMAAAAAF/tko5yYXcAAAAA
+2020-12-31 at 16:58:00 | INFO | 成功获取页面：https://www.amazon.com/Novelty-Depth-Round-Cylinder-8-Inch/dp/B08R5CXDL1/ref=zg_bs_lawn-garden_14/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:58:03 | INFO | 提取token：gAK+OLEmr1rw2REwos8PA7V5CLINgnNXYJMORCAAAAAMAAAAAF/tkplyYXcAAAAA
+2020-12-31 at 16:58:08 | INFO | 成功获取页面：https://www.amazon.com/Ottomanson-TRY400-30X15-Multi-Purpose-Outdoor-Waterproof/dp/B01LBL9XKE/ref=zg_bs_lawn-garden_15/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:58:10 | INFO | 提取token：gNSCcvUHHmHf3xoV7wLNj8QeYPJJ2ORAw/VIzDsAAAAMAAAAAF/tkqFyYXcAAAAA
+2020-12-31 at 16:58:16 | INFO | 成功获取页面：https://www.amazon.com/TERRO-T300-Liquid-Ant-Baits/dp/B000HJBKMQ/ref=zg_bs_lawn-garden_16/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:58:20 | INFO | 提取token：gKdmaCOm121GT7PvJMjW19i1pDZZmA9u9lNcZYQAAAAMAAAAAF/tkqpyYXcAAAAA
+2020-12-31 at 16:58:26 | INFO | 成功获取页面：https://www.amazon.com/dp/B08RRVSM6M/ref=zg_bs_lawn-garden_17/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:58:28 | INFO | 提取token：gK4i7yQ+A9hxFl7W551CPJ7rq4jagV9suWcExe4AAAAMAAAAAF/tkrJyYXcAAAAA
+2020-12-31 at 16:58:35 | INFO | 成功获取页面：https://www.amazon.com/GE-Lighting-93101230-Balanced-Spectrum/dp/B07NN6SVG6/ref=zg_bs_lawn-garden_18/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:58:37 | INFO | 提取token：gNWn4k110TWHO3iKcJnfKGMhl7gmmIY4Lw2cvzMAAAAMAAAAAF/tkrtyYXcAAAAA
+2020-12-31 at 16:58:42 | INFO | 成功获取页面：https://www.amazon.com/Miracle-Gro-Indoor-Plant-Food-48-Spikes/dp/B0019QEB86/ref=zg_bs_lawn-garden_19/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:58:45 | INFO | 提取token：gFvlfA5P75C0zCpXVi9JUzzIWXxhmXCUr2Z/BXsAAAAMAAAAAF/tksNyYXcAAAAA
+2020-12-31 at 16:58:57 | INFO | 成功获取页面：https://www.amazon.com/VIVOSUN-Waterproof-Hydroponic-Fermentation-Germination/dp/B073PTZCJ4/ref=zg_bs_lawn-garden_20/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:58:59 | INFO | 提取token：gG9Hi+oAmJysLftlhA6QtusLoS88YgHnbAUDDyUAAAAMAAAAAF/tktFyYXcAAAAA
+2020-12-31 at 16:59:03 | INFO | 成功获取页面：https://www.amazon.com/Organic-Succulent-Cactus-Draining-Pre-Mixed/dp/B07JMLDYRB/ref=zg_bs_lawn-garden_21/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:59:06 | INFO | 提取token：gB/xKBGyHkxl9sJ10fTFFAsho5pfWWFqFK8YX7sAAAAMAAAAAF/tkthyYXcAAAAA
+2020-12-31 at 16:59:10 | INFO | 成功获取页面：https://www.amazon.com/XLUX-Soil-Moisture-Sensor-Meter/dp/B014MJ8J2U/ref=zg_bs_lawn-garden_22/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:59:12 | INFO | 提取token：gHOUn5b9kSPvknh+0dkRnIcVAxyUHMmtfqOaWzoAAAAMAAAAAF/tkt5yYXcAAAAA
+2020-12-31 at 16:59:20 | INFO | 成功获取页面：https://www.amazon.com/VIVOSUN-5-Pack-Thickened-Nonwoven-Handles/dp/B00UBLDSAW/ref=zg_bs_lawn-garden_23/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:59:24 | INFO | 提取token：gJ+BcoFzr3R8xfkp8lEzcPoyVkk493qEJPywWycAAAAMAAAAAF/tkupyYXcAAAAA
+2020-12-31 at 16:59:28 | INFO | 成功获取页面：https://www.amazon.com/Govee-Temperature-Humidity-Notification-Monitor/dp/B07Y36FWTT/ref=zg_bs_lawn-garden_24/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:59:31 | INFO | 提取token：gBRWjojfkN0wxtpbZsqu+kV23r0nZajokI7fP6AAAAAMAAAAAF/tkvFyYXcAAAAA
+2020-12-31 at 16:59:36 | INFO | 成功获取页面：https://www.amazon.com/BONIDE-PRODUCTS-Bonide-022-32-Ounce/dp/B007CRG4CW/ref=zg_bs_lawn-garden_25/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:59:40 | INFO | 提取token：gK2+E8gckU0EKl7ljrSOkzV+R6gRcaUQai/cfrIAAAAMAAAAAF/tkvtyYXcAAAAA
+2020-12-31 at 16:59:45 | INFO | 成功获取页面：https://www.amazon.com/Scotts-72776430-Indoor-Potting-6-Qt/dp/B01JIRJK8S/ref=zg_bs_lawn-garden_26/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:59:48 | INFO | 提取token：gPhKCpMaPB0bZ9ebiOn/eJQU1UTNXgFyEvLsN/MAAAAMAAAAAF/tkwJyYXcAAAAA
+2020-12-31 at 16:59:53 | INFO | 成功获取页面：https://www.amazon.com/Habor-Hygrometer-Thermometer-Temperature-Greenhouse/dp/B072XHJLFD/ref=zg_bs_lawn-garden_27/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 16:59:56 | INFO | 提取token：gOC8IQ9skeYPP5EjhgM+u/nlazZ/zY5FQUEeVq0AAAAMAAAAAF/tkwpyYXcAAAAA
+2020-12-31 at 17:00:01 | INFO | 成功获取页面：https://www.amazon.com/Anley-Fly-Breeze-American-Polyester/dp/B015R4DH2G/ref=zg_bs_lawn-garden_28/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:00:03 | INFO | 提取token：gL91033QRx47vVqhDEPVEGUROBGFfOHoBvzMKlMAAAAMAAAAAF/tkxJyYXcAAAAA
+2020-12-31 at 17:00:08 | INFO | 成功获取页面：https://www.amazon.com/AeroGarden-Heirloom-Salad-Greens-3-Pod/dp/B00VQ6NELE/ref=zg_bs_lawn-garden_29/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:00:10 | INFO | 提取token：gPOCae3MB9tTDrAzHq+J1mh1aku5EZANMi2EFNkAAAAMAAAAAF/tkxhyYXcAAAAA
+2020-12-31 at 17:00:15 | INFO | 成功获取页面：https://www.amazon.com/Tomcat-Mouse-Glue-Trap-Eugenol/dp/B012VJLZOM/ref=zg_bs_lawn-garden_30/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:00:19 | INFO | 提取token：gEYN4usMF67QA0ud+l9cAJ5VHj/WK6P5gzKC2ioAAAAMAAAAAF/tkyByYXcAAAAA
+2020-12-31 at 17:00:23 | INFO | 成功获取页面：https://www.amazon.com/Snow-Joe-AZ-10-EB-JUG-Melt-Removal/dp/B073XVJNY1/ref=zg_bs_lawn-garden_31/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:00:26 | INFO | 提取token：gFCWfF0yubJDQeQ3gQ8D53TxQWKfQ9RVtZeirzAAAAAMAAAAAF/tkyhyYXcAAAAA
+2020-12-31 at 17:00:31 | INFO | 成功获取页面：https://www.amazon.com/VicTsing-30-Inch-Waterproof-Brinkmann-Holland/dp/B01MRQVYKC/ref=zg_bs_lawn-garden_32/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:00:33 | INFO | 提取token：gBUXJ0/SH2z0qytmcRdw+iIrBlDGhBb8TYeaxOUAAAAMAAAAAF/tky9yYXcAAAAA
+2020-12-31 at 17:00:37 | INFO | 成功获取页面：https://www.amazon.com/Stingmon-Pack-Sticky-Fruit-Fungus/dp/B07XLM4FWL/ref=zg_bs_lawn-garden_33/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:00:40 | INFO | 提取token：gKpKqqa6BrN3OViRPpA7wmL97MmB0b/QMkJbA1AAAAAMAAAAAF/tkzZyYXcAAAAA
+2020-12-31 at 17:00:47 | INFO | 成功获取页面：https://www.amazon.com/FDC-Pure-Calcium-Chloride-Pellets/dp/B078P6NFP4/ref=zg_bs_lawn-garden_34/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:00:49 | INFO | 提取token：gHC/FdrXHGOjuYbqwTvUxmMeZoEkX0bXn97s9PQAAAAMAAAAAF/tkz9yYXcAAAAA
+2020-12-31 at 17:00:55 | INFO | 成功获取页面：https://www.amazon.com/Original-Bear-Paws-Shredder-Claws/dp/B003IWI66W/ref=zg_bs_lawn-garden_35/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:00:57 | INFO | 提取token：gDN4nk1+syxpeq3UTZC+4imZmrubtUWsxTx6WDEAAAAMAAAAAF/tk0dyYXcAAAAA
+2020-12-31 at 17:01:01 | INFO | 成功获取页面：https://www.amazon.com/EZORKAS-Dimmable-Spectrum-Adjustable-Gooseneck/dp/B07ZHY1B4C/ref=zg_bs_lawn-garden_36/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:01:04 | INFO | 提取token：gGSUzr2X+BsqQuv+s2Agui0Q8AF//YmseLWWZbYAAAAMAAAAAF/tk01yYXcAAAAA
+2020-12-31 at 17:01:11 | INFO | 成功获取页面：https://www.amazon.com/Flexzilla-Garden-Lead-Lightweight-Drinking/dp/B01D51VBF8/ref=zg_bs_lawn-garden_37/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:01:14 | INFO | 提取token：gLcUa0FgzWL6v1dRU+SjVhxkg0FE/JAZH0RjdMwAAAAMAAAAAF/tk1dyYXcAAAAA
+2020-12-31 at 17:01:18 | INFO | 成功获取页面：https://www.amazon.com/Sierra-Concepts-2-Pack-Striped-Floor/dp/B07Y2DXXPR/ref=zg_bs_lawn-garden_38/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:01:21 | INFO | 提取token：gN8N4djWKzYxIHHVozlVyJCrJaFM7ZU8HuZtwi4AAAAMAAAAAF/tk19yYXcAAAAA
+2020-12-31 at 17:01:25 | INFO | 成功获取页面：https://www.amazon.com/ThermoPro-Wireless-Digital-Cooking-Thermometer/dp/B01GE77QT0/ref=zg_bs_lawn-garden_39/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:01:29 | INFO | 提取token：gHp3gLH4h3j9R2nJz+/GPUPDBXj+AfMJrbnj/qAAAAAMAAAAAF/tk2ZyYXcAAAAA
+2020-12-31 at 17:01:37 | INFO | 成功获取页面：https://www.amazon.com/Sonkir-Soil-Moisture-Tester-Gardening/dp/B07BR52P26/ref=zg_bs_lawn-garden_40/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:01:40 | INFO | 提取token：gAh64YvxNTIgzD3t2r83nCby/YkbkDCSkGjLmQwAAAAMAAAAAF/tk3JyYXcAAAAA
+2020-12-31 at 17:01:48 | INFO | 成功获取页面：https://www.amazon.com/Harris-Friendly-Magnesium-Chloride-Included/dp/B083PP1ZY5/ref=zg_bs_lawn-garden_41/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:01:51 | INFO | 提取token：gFC7gLPE+besDc0HzlTqB39xcufS8hmRk0BY8iUAAAAMAAAAAF/tk31yYXcAAAAA
+2020-12-31 at 17:01:58 | INFO | 成功获取页面：https://www.amazon.com/Watering-Aerating-Reservoir-Succulents-Windowsill/dp/B0799CGVSM/ref=zg_bs_lawn-garden_42/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:02:00 | INFO | 提取token：gDA/nR4LH5jhZxuFfG7CnxF4XN0TwudQs4pfPXoAAAAMAAAAAF/tk4ZyYXcAAAAA
+2020-12-31 at 17:02:06 | INFO | 成功获取页面：https://www.amazon.com/AeroGarden-901100-1200-Harvest-Black/dp/B07CKK8Z78/ref=zg_bs_lawn-garden_43/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:02:09 | INFO | 提取token：gFJSgFXi+Uo83o9qsDPfdgW0wyTaa4fJGDFCmucAAAAMAAAAAF/tk49yYXcAAAAA
+2020-12-31 at 17:02:14 | INFO | 成功获取页面：https://www.amazon.com/Simple-Houseware-BBQ-Grill-Cover/dp/B0856VVLQS/ref=zg_bs_lawn-garden_44/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:02:17 | INFO | 提取token：gImUon+TKIRk/nYQFpHjlz/K0Y73maaug05ddOYAAAAMAAAAAF/tk5dyYXcAAAAA
+2020-12-31 at 17:02:23 | INFO | 成功获取页面：https://www.amazon.com/Authenzo-Catcher-Effective-Sanitary-Families/dp/B07HQMLHCL/ref=zg_bs_lawn-garden_45/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:02:26 | INFO | 提取token：gCG+fzMf79g05AFqlRiyWqaNtfO0pMH4/js8upAAAAAMAAAAAF/tk6ByYXcAAAAA
+2020-12-31 at 17:02:33 | INFO | 成功获取页面：https://www.amazon.com/Garsum-Sticky-Yellow-Indoor-Outdoor/dp/B07ZSC4CK1/ref=zg_bs_lawn-garden_46/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:02:35 | INFO | 提取token：gKZsyytj3y2APTlXlINVo8jTaZIXehoi8rjF2NAAAAAMAAAAAF/tk6lyYXcAAAAA
+2020-12-31 at 17:02:39 | INFO | 成功获取页面：https://www.amazon.com/Stoneware-Thermarite-Engineered-Cordierite-Certified/dp/B01GW4CDOI/ref=zg_bs_lawn-garden_47/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:02:42 | INFO | 提取token：gDiTGArrwU3cuYS2uBYf/Ywz1yUWd/oMvp7KgrcAAAAMAAAAAF/tk7ByYXcAAAAA
+2020-12-31 at 17:02:47 | INFO | 成功获取页面：https://www.amazon.com/WhaleLife-Indoor-Watering-Bonsai-Translucent/dp/B08CCFVDZR/ref=zg_bs_lawn-garden_48/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:02:51 | INFO | 提取token：gK0ugY6S/1lIDWhMUHNkninBasikJ1NVtZyyoDgAAAAMAAAAAF/tk7hyYXcAAAAA
+2020-12-31 at 17:02:56 | INFO | 成功获取页面：https://www.amazon.com/AeroGarden-Gourmet-Herb-Seed-3-Pod/dp/B0042VK7TW/ref=zg_bs_lawn-garden_49/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
+2020-12-31 at 17:02:59 | INFO | 提取token：gGtASu+cjlG4G54RdN/eq9I9lZGcIIRGFFZ8tsUAAAAMAAAAAF/tk8FyYXcAAAAA
+2020-12-31 at 17:03:05 | INFO | 成功获取页面：https://www.amazon.com/Summit-responsible-solutions-119-1-Mosquito/dp/B003XS2572/ref=zg_bs_lawn-garden_50/147-2787102-4040827?_encoding=UTF8&psc=1&refRID=YSERCE9T8C397BMJSE4C
