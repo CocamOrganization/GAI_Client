@@ -15,8 +15,8 @@ log_path = os.path.join(base_path, work_file)
 
 class Getter(object):
 
-    def mk_file(self, input):
-        path = os.getcwd()
+    def mk_file(self, base_file, input):
+        path = base_file
         work_file = str(datetime.date.today())
         work_path = os.path.join(path, work_file)
         if not os.path.exists(work_path):
@@ -63,7 +63,7 @@ class Getter(object):
         if inf.get('title') == None:
             print('此次未抓取到title')
             return
-        path = file_path + '/all_titles.txt'
+        path = file_path
         if not os.path.exists(path):
             with open(path, 'a', encoding='utf-8') as f:
                 f.write('\t'.join(inf.keys()) + '\n')

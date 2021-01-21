@@ -1,6 +1,6 @@
 import sys
 # PyQt5中使用的基本控件都在PyQt5.QtWidgets模块中
-from PyQt5.QtWidgets import QApplication, QMainWindow
+from PyQt5.QtWidgets import QApplication, QMainWindow, QFileDialog
 from PyQt5 import QtCore, QtGui, QtWidgets
 # 导入designer工具生成的login模块
 from Gui.crawler_ui import Ui_MainWindow
@@ -34,13 +34,20 @@ class MyMainForm(Ui_MainWindow):
         '''
         self.textBrowser.append(str)
 
+    def msg(self):
+        # QFileDialog.getExistingDirectory(self, "请选择保存的文件夹路径", "C:\\Users\\86178\\Desktop")
+        file_path = QFileDialog.getExistingDirectory(self, "请选择保存的文件夹路径", "C:\\Users\\86178\\Desktop")  # 返回选中的文件夹路径
+        return file_path
+
     def start_crawl(self):
         if self.textEdit.document().isEmpty():
             self.console_desplay('请先输入关键词')
         else:
+            file_path = self.msg()
+            # print(file_path)
             inputs = self.textEdit.toPlainText()
             all_need_crawl = inputs.split('\n')
-            self.spider = main_spider.all_title_spider(all_need_crawl)
+            self.spider = main_spider.all_title_spider(all_need_crawl, file_path)
             self.spider.signal.connect(self.console_desplay)  # 将信号与槽函数链接
             self.spider.start()
 

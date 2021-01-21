@@ -112,25 +112,17 @@ class Cal_Words(object):
         title_review_frame.columns = ['title', 'reviews']
         return title_review_frame
 
-    def statis_word_reviews(self, file_path):
+    def cal_save_words(self, df, writer):
         '''
-        用于保存词频统计的结果
-        :param file_path: 文件夹路径
+        统计reviews和count并保存到excel
+        :param df: 需要处理的dataframe
+        :param writer: 写入本地excel位置
         :return:
         '''
-        read_path = file_path + '/all_titles.txt'
-        path = file_path + '/词频统计.xls'
-        keywords = pd.read_csv(read_path, sep='\t')
-        keywords['reviews'] = keywords['reviews'].\
-            replace(',', '').replace('None', '0').astype(np.int64)
-        if len(keywords) == 0:
-            print('未成功抓取到title')
-            return
-        writer = pd.ExcelWriter(path)
         for i in range(1, 11):
-            Split_Keywords = self.split_keywords_k2(keywords, i) #DataFrame格式，带keyword和reviews
-            if type(Split_Keywords) != int:#title的单词个数大于需要被划分的词组个数
-                Word_reviews = Split_Keywords.groupby(['title']).sum()#统计reviews
+            Split_Keywords = self.split_keywords_k2(df, i)  # DataFrame格式，带keyword和reviews
+            if type(Split_Keywords) != int:  # title的单词个数大于需要被划分的词组个数
+                Word_reviews = Split_Keywords.groupby(['title']).sum()  # 统计reviews
                 Word_count = Split_Keywords['title'].value_counts()
                 Word_count.name = 'count'
                 word_statis = Word_reviews.join(Word_count, how='outer')
@@ -138,6 +130,35 @@ class Cal_Words(object):
                 word_statis.to_excel(writer, sheet_name=str(i) + '个词')
         writer.save()
         writer.close()
+
+    def statis_word_reviews(self, file_path):
+        '''
+        用于保存词频统计的结果
+        :param file_path: 文件夹路径
+        :return:
+        '''
+        os.chdir(file_path)
+        path_all = os.listdir()
+        path_txt = []
+        for i in path_all:
+            if i[-3:] == 'txt':
+                path_txt.append(i)
+        keyword_all = pd.DataFrame()
+        for path in path_txt:
+            keywords = pd.read_csv(path, sep='\t')
+            keyword_all = pd.concat([keywords, keyword_all], axis=0)
+            keywords['reviews'] = keywords['reviews']. \
+                replace(',', '').replace('None', '0').astype(np.int64)
+            if len(keywords) == 0:
+                print('未成功抓取到title')
+                return
+            writer = pd.ExcelWriter(path[:path.find('.')] + '词频统计报告.xls')
+            self.cal_save_words(keywords, writer)
+        if len(path_txt)>1:
+            writer = pd.ExcelWriter('全部词频统计报告.xls')
+            self.cal_save_words(keyword_all, writer)
+
+
 
 
     def statis_word_numbers(self, file_path):

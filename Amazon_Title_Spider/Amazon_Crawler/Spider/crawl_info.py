@@ -330,10 +330,11 @@ class Spider(object):
             for each_li in list_lis:
                 try:
                     # 1.产品名称
-                    title = each_li.xpath('./span/div/span/a/div/@title')
+                    title = each_li.xpath('.//div[@aria-hidden="true"]/text()')
+                    # print(title)
                     if title == []:
                         title = each_li.xpath('./span/div/span/a/span/div/img/@alt')
-                    commodity_info['title'] = title[0]
+                    commodity_info['title'] = title[0].strip('        ').replace('            ','').strip('\n')
 
                 except:
                     commodity_info['title'] = None
@@ -359,13 +360,13 @@ if __name__ == '__main__':
     sr = send_request.Send_Request()
     spider = Spider()
     # text = sr.get_html('https://www.amazon.com/dp/B08DK9X3XC')
-    text = sr.get_html('https://www.amazon.com/gp/bestsellers/2975266011')
+    text = sr.get_html('https://www.amazon.com/gp/bestsellers/2975248011')
     # spider.check('asin','aas',text)
     Response = (text, 'https://www.amazon.com/Flash-Furniture-Nantucket-Umbrella-Folding/dp/B07CD5W2QC/ref=zg_bs_1613538101')
     if isinstance(text, str):
         # for i in spider.get_bsr_title(Response):
         #     print(i)
-        print(spider.get_bsr_title(Response))
+        # print(spider.get_bsr_title(Response))
         # print(spider.get_detail_inf(Response))
         for i in spider.get_bsr_title(Response):
             print(i)

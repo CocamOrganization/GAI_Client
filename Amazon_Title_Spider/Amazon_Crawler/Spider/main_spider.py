@@ -15,9 +15,10 @@ class all_title_spider(QThread):
     # 使用信号和UI主线程通讯
     signal = pyqtSignal(str)
 
-    def __init__(self, inputs_lst):
+    def __init__(self, inputs_lst, file_path):
         super(all_title_spider, self).__init__()
         self.inputs = inputs_lst  #textEdit，set格式
+        self.file_path = file_path
         # self.file = time  # 设置延时时间
 
     def crawl_one(self,q):
@@ -38,37 +39,39 @@ class all_title_spider(QThread):
             if inf_iter != None:
                 for inf in inf_iter:
                     lock.acquire()  # 加锁
-                    self.signal.emit('已抓取: {inf}...'.format(inf=str(inf)[:50]))
+                    self.signal.emit('已抓取: {inf}...'.format(inf=str(inf)))
                     getter.title_save(inf, file)
                     lock.release()  # 解锁
-
 
     def run(self):
         global file
         self.inputs_set = set([i for i in self.inputs if i != '' and i != None])
         if len(self.inputs_set) == 1:
-            file = getter.mk_file(str(self.inputs[0]))
+            file = getter.mk_file(self.file_path, str(self.inputs[0]))
             # print('工作目录为: {file}'.format(file=file))
             self.signal.emit('工作目录为: {file}'.format(file=file))
             for input in self.inputs_set:
                 need_crawl = input.strip().replace('\n', '')
+                new_file = file + '/' + input + '.txt'
                 if isinstance(need_crawl, str) and len(need_crawl) != 0:
                     url_lst = getter.mk_url(need_crawl)
                     for url in url_lst:
                         self.signal.emit('生成{url}'.format(url=url))
-                        q.put((url, file))
+                        q.put((url, new_file))
                     # self.crawl_one(need_crawl, file)
         else:
-            file = getter.mk_file('manyinputs_' + str(self.inputs[0]))
+            #多个输入
+            file = getter.mk_file(self.file_path, 'manyinputs_' + str(self.inputs[0]))
             # print('工作目录为: {file}'.format(file=file))
             self.signal.emit('工作目录为: {file}'.format(file=file))
             for input in self.inputs_set:
                 need_crawl = input.strip().replace('\n', '')
+                new_file = file + '/' + input + '.txt'
                 if isinstance(need_crawl, str) and len(need_crawl) != 0:
                     url_lst = getter.mk_url(need_crawl)
                     for url in url_lst:
                         self.signal.emit('生成{url}'.format(url=url))
-                        q.put((url, file))
+                        q.put((url, new_file))
         p_lst = []
         #开始多线程抓取
         for i in range(6):
@@ -76,11 +79,12 @@ class all_title_spider(QThread):
             p.start()
             p_lst.append(p)
         for p in p_lst:
-            p.join(timeout=len(self.inputs_set)*5)
+            p.join()
         self.signal.emit('数据抓取完毕，开始进行词频统计')
+        #进行文件合并
+
         # 将保存好的title进行词频统计
-        read_path = file + '/all_titles.txt'
-        if os.path.exists(read_path):
+        if os.listdir(file) != []:
             cal_words.statis_word_reviews(file)
         else:
             self.signal.emit('未抓取到title信息')
