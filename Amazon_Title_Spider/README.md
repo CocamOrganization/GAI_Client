@@ -25,7 +25,7 @@
 执行步骤：
 
 1. 输入关键字，如果输入多个需要记得换行
-2. 点击**开始抓取**按钮
+2. 点击**开始抓取**按钮，选择文件保存路径
 3. 程序运行结束后会打印出文件保存的路径，复制文件路径至文件夹打开即可
    
 <img src="ScreenShot/operation.png" width = "400" height = "300" alt="operation" align=center />
