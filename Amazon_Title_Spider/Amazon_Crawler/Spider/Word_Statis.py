@@ -126,7 +126,7 @@ class Cal_Words(object):
                 Word_count = Split_Keywords['title'].value_counts()
                 Word_count.name = 'count'
                 word_statis = Word_reviews.join(Word_count, how='outer')
-                word_statis = word_statis.sort_values(by=['count'], ascending=False)
+                word_statis = word_statis.sort_values(by=['count', 'reviews'], ascending=False)
                 word_statis.to_excel(writer, sheet_name=str(i) + '个词')
         writer.save()
         writer.close()
