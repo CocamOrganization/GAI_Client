@@ -168,6 +168,7 @@ class Cal_Words(object):
                 return
             writer = pd.ExcelWriter(path[:path.find('.')] + '词频统计报告.xls')
             self.cal_save_words(keywords, writer)
+        logging.info('文件夹下文件数量为：{length}'.format(length=len(path_txt)))
         if len(path_txt)>1:
             logging.info('开始进行全部词频统计：{path}'.format(path=file_path))
             writer = pd.ExcelWriter('全部词频统计报告.xls')
