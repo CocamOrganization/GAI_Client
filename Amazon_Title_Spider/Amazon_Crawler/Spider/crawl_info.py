@@ -1,6 +1,6 @@
 import datetime
 from lxml import etree
-import logging as logger
+import logging
 # from loguru import logger
 import os
 # from os import path
@@ -10,7 +10,12 @@ base_path = os.path.dirname(os.path.abspath(__file__))
 today_file = str(datetime.date.today())
 work_file = '..\\logs\\' + today_file + '.log'
 log_path = os.path.join(base_path, work_file)
-# logger.add(log_path, format="{time:YYYY-MM-DD at HH:mm:ss} | {level} | {message}")
+logging.basicConfig(level=logging.INFO,#控制台打印的日志级别
+                    format='%(asctime)s - %(pathname)s[line:%(lineno)d] - %(levelname)s: %(message)s',
+                    filename = log_path,
+                    filemode = 'a',  ##模式，有w和a，w就是写模式，每次都会重新写日志，覆盖之前的日志
+# a是追加模式，默认如果不写的话，就是追加模式
+                    )
 
 class Spider(object):
 
@@ -55,7 +60,7 @@ class Spider(object):
         :return: dict
         '''
         text = Responses[0]
-        url = Responses[1]
+        logging.info('开始提取商品详情页title:{url}'.format(url=Response[1]))
         response = etree.HTML(text)
         commodity_info = {}
         #收货地址
@@ -213,6 +218,7 @@ class Spider(object):
             :param response: tuple:(text, url)
             :return:
         '''
+        logging.info('开始提取bestseller页面url:{url}'.format(url=Response[1]))
         text = Responses[0]
         response = etree.HTML(text)
         commodity_info = {}
@@ -281,6 +287,7 @@ class Spider(object):
         :param Rsponse: tuple:(text, url)
         :return: 首页titles
         '''
+        logging.info('开始提取搜索页面url:{url}'.format(url=Response[1]))
         text = Response[0]
         html = etree.HTML(text)
         a_ls = html.xpath('//a[@class="a-link-normal a-text-normal"]')
@@ -298,6 +305,7 @@ class Spider(object):
         :param Rsponse: tuple:(text, url)
         :return: (title, reviews)
         '''
+        logging.info('开始提取搜索页面title:{url}'.format(url=Response[1]))
         text = Response[0]
         html = etree.HTML(text)
         commodity_info = {}
@@ -321,6 +329,7 @@ class Spider(object):
             :param response: tuple:(text, url)
             :return:(title, reviews)
         '''
+        logging.info('开始提取bestseller页面title:{url}'.format(url=Response[1]))
         text = Responses[0]
         commodity_info = {}
         response = etree.HTML(text)
@@ -347,6 +356,7 @@ class Spider(object):
                 yield commodity_info
 
     def get_bsr_two_url(self, response):
+        logging.info('获取类目页面:{url}'.format(url=Response[1]))
         text = response[0]
         html = etree.HTML(text)
         bsr_two_url = html.xpath('//li[@class="a-normal"]/a/@href')
@@ -360,15 +370,15 @@ if __name__ == '__main__':
     sr = send_request.Send_Request()
     spider = Spider()
     # text = sr.get_html('https://www.amazon.com/dp/B08DK9X3XC')
-    text = sr.get_html('https://www.amazon.com/gp/bestsellers/2975248011')
-    # spider.check('asin','aas',text)
+    text = sr.get_html('https://www.amazon.com/s?k=bar+stools')
+    spider.check('asin','aas',text)
     Response = (text, 'https://www.amazon.com/Flash-Furniture-Nantucket-Umbrella-Folding/dp/B07CD5W2QC/ref=zg_bs_1613538101')
     if isinstance(text, str):
         # for i in spider.get_bsr_title(Response):
         #     print(i)
         # print(spider.get_bsr_title(Response))
         # print(spider.get_detail_inf(Response))
-        for i in spider.get_bsr_title(Response):
+        for i in spider.get_page_title(Response):
             print(i)
 
 

@@ -3,7 +3,7 @@ import sys
 sys.path.append(path.abspath('D:/software/Lib/site-packages'))
 import requests
 import json
-import logging as logger
+import logging
 # from loguru import logger
 import random
 import os
@@ -17,7 +17,12 @@ base_path = os.path.dirname(os.path.abspath(__file__))
 today_file = str(datetime.date.today())
 work_file = '..\\logs\\' + today_file + '.log'
 log_path = os.path.join(base_path, work_file)
-# logger.add(log_path, format="{time:YYYY-MM-DD at HH:mm:ss} | {level} | {message}")
+logging.basicConfig(level=logging.INFO,#控制台打印的日志级别
+                    format='%(asctime)s - %(pathname)s[line:%(lineno)d] - %(levelname)s: %(message)s',
+                    filename = log_path,
+                    filemode = 'a',  ##模式，有w和a，w就是写模式，每次都会重新写日志，覆盖之前的日志
+# a是追加模式，默认如果不写的话，就是追加模式
+                    )
 
 class Send_Request(object):
     def __init__(self):
@@ -73,7 +78,7 @@ class Send_Request(object):
         pattern = 'CSRF_TOKEN : "(.*?)"'
         CSRF_TOKEN = re.search(pattern, text).group(1)
         # print(CSRF_TOKEN)
-        print('提取token：{CSRF_TOKEN}'.format(CSRF_TOKEN=CSRF_TOKEN))
+        logging.info('提取token：{CSRF_TOKEN}'.format(CSRF_TOKEN=CSRF_TOKEN))
         address_headers = {'authority': 'www.amazon.com',
                            'method': 'POST',
                            'path': '/gp/delivery/ajax/address-change.html',
@@ -123,7 +128,7 @@ class Send_Request(object):
     def get_html(self, url, retries=0):
         '''获取html代码'''
         if retries > 999:
-            print('超过最大重试次数:{url}'.format(url=url))
+            logging.debug('超过最大重试次数:{url}'.format(url=url))
             return
         retries += 1
         adress_url = 'https://www.amazon.com/gp/delivery/ajax/address-change.html'
@@ -143,28 +148,28 @@ class Send_Request(object):
                 response = session.get(url, headers=self.headers, timeout=5)
             text = response.text
             if 'Robot Check' in text:
-                print('出现验证码,更换ip:{url}'.format(url=url))
+                logging.debug('出现验证码,更换ip:{url}'.format(url=url))
                 time.sleep(random.randint(4,10))
                 return self.get_html(url, retries)
             elif 'Enter the characters you see below' in text:
-                print('出现验证码,更换ip:{url}'.format(url=url))
+                logging.debug('出现验证码,更换ip:{url}'.format(url=url))
                 time.sleep(random.randint(4, 10))
                 return self.get_html(url, retries)
             elif response.status_code == 404:
-                print('Page Not Found: {url}'.format(url=url))
+                logging.debug('Page Not Found: {url}'.format(url=url))
             elif response.status_code == 200:
-                print('成功获取页面：{url}'.format(url=url))
+                logging.info('成功获取页面：{url}'.format(url=url))
                 return text
             elif response.status_code == 503:
-                print('出现503错误：{url}'.format(url=url))
+                logging.debug('出现503错误：{url}'.format(url=url))
                 # self.check('unknown', '503', text)
                 time.sleep(random.randint(6, 10))
                 return self.get_html(url, retries)
             else:
-                print('出现未知类型的错误：{url}'.format(url=url))
+                logging.debug('出现未知类型的错误：{url}'.format(url=url))
                 # self.check('unknown', url, text)
         except:
-            print('连接超时，准备重试')
+            logging.debug('连接超时，准备重试')
             time.sleep(random.randint(8, 12))
             return self.get_html(url, retries)
 

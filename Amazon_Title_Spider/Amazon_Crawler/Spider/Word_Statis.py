@@ -2,6 +2,19 @@ import pandas as pd
 import numpy as np
 import itertools
 import os
+import logging
+import datetime
+
+base_path = os.path.dirname(os.path.abspath(__file__))
+today_file = str(datetime.date.today())
+work_file = '..\\logs\\' + today_file + '.log'
+log_path = os.path.join(base_path, work_file)
+logging.basicConfig(level=logging.INFO,#控制台打印的日志级别
+                    format='%(asctime)s - %(pathname)s[line:%(lineno)d] - %(levelname)s: %(message)s',
+                    filename = log_path,
+                    filemode = 'a',  ##模式，有w和a，w就是写模式，每次都会重新写日志，覆盖之前的日志
+# a是追加模式，默认如果不写的话，就是追加模式
+                    )
 
 class Cal_Words(object):
     def word_count(self, Split_Keywords):
@@ -140,6 +153,7 @@ class Cal_Words(object):
         os.chdir(file_path)
         path_all = os.listdir()
         path_txt = []
+        logging.info('开始读取{path}中的文件'.format(path=file_path))
         for i in path_all:
             if i[-3:] == 'txt':
                 path_txt.append(i)
@@ -150,11 +164,12 @@ class Cal_Words(object):
             keywords['reviews'] = keywords['reviews']. \
                 replace(',', '').replace('None', '0').astype(np.int64)
             if len(keywords) == 0:
-                print('未成功抓取到title')
+                logging.debug('未成功抓取到title')
                 return
             writer = pd.ExcelWriter(path[:path.find('.')] + '词频统计报告.xls')
             self.cal_save_words(keywords, writer)
         if len(path_txt)>1:
+            logging.info('开始进行全部词频统计：{path}'.format(path=file_path))
             writer = pd.ExcelWriter('全部词频统计报告.xls')
             self.cal_save_words(keyword_all, writer)
 
@@ -171,7 +186,7 @@ class Cal_Words(object):
         path = file_path + '/词频统计.xls'
         keywords = pd.read_csv(read_path, sep='\t')['title']
         if len(keywords) == 0:
-            print('未成功抓取到title')
+            logging.debug('未成功抓取到title')
             return
         writer = pd.ExcelWriter(path)
         for i in range(1, 11):
@@ -190,4 +205,4 @@ if __name__ == '__main__':
     # print(words_k)
     # word_count = cal_words.word_count(words_k)
     # print(word_count)
-    cal_words.statis_word_reviews('D://Demo//Amazon_Titler_Spider//Amazon_Crawler//2021-01-18//manyinputs_B012VJLZOM')
+    cal_words.statis_word_reviews('C:/Users/86178/Desktop/词频抓取/2021-01-27\cats')

@@ -1,6 +1,6 @@
 from Spider import send_request, crawl_info
 import os
-import logging as logger
+import logging
 # from loguru import logger
 import datetime
 
@@ -11,8 +11,12 @@ base_path = os.path.dirname(os.path.abspath(__file__))
 today_file = str(datetime.date.today())
 work_file = '..\\logs\\' + today_file + '.log'
 log_path = os.path.join(base_path, work_file)
-# logger.add(log_path, format="{time:YYYY-MM-DD at HH:mm:ss} | {level} | {message}")
-
+logging.basicConfig(level=logging.INFO,#控制台打印的日志级别
+                    format='%(asctime)s - %(pathname)s[line:%(lineno)d] - %(levelname)s: %(message)s',
+                    filename = log_path,
+                    filemode = 'a',  ##模式，有w和a，w就是写模式，每次都会重新写日志，覆盖之前的日志
+# a是追加模式，默认如果不写的话，就是追加模式
+                    )
 class Getter(object):
 
     def mk_file(self, base_file, input):
