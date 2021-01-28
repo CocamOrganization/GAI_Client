@@ -60,7 +60,7 @@ class Spider(object):
         :return: dict
         '''
         text = Responses[0]
-        logging.info('开始提取商品详情页title:{url}'.format(url=Response[1]))
+        logging.info('开始提取商品详情页title:{url}'.format(url=Responses[1]))
         response = etree.HTML(text)
         commodity_info = {}
         #收货地址
@@ -218,7 +218,7 @@ class Spider(object):
             :param response: tuple:(text, url)
             :return:
         '''
-        logging.info('开始提取bestseller页面url:{url}'.format(url=Response[1]))
+        logging.info('开始提取bestseller页面url:{url}'.format(url=Responses[1]))
         text = Responses[0]
         response = etree.HTML(text)
         commodity_info = {}
@@ -329,7 +329,7 @@ class Spider(object):
             :param response: tuple:(text, url)
             :return:(title, reviews)
         '''
-        logging.info('开始提取bestseller页面title:{url}'.format(url=Response[1]))
+        logging.info('开始提取bestseller页面title:{url}'.format(url=Responses[1]))
         text = Responses[0]
         commodity_info = {}
         response = etree.HTML(text)
@@ -356,7 +356,7 @@ class Spider(object):
                 yield commodity_info
 
     def get_bsr_two_url(self, response):
-        logging.info('获取类目页面:{url}'.format(url=Response[1]))
+        logging.info('获取类目页面:{url}'.format(url=response[1]))
         text = response[0]
         html = etree.HTML(text)
         bsr_two_url = html.xpath('//li[@class="a-normal"]/a/@href')
