@@ -33,7 +33,7 @@ class Getter(object):
                 file_path = os.path.join(keywordpath, file)
                 os.remove(file_path)
         elif os.path.exists(keywordpath) and os.listdir(keywordpath)==[]:
-            print('文件夹{file}已经存在'.format(file=keywordpath))
+            logging.debug('文件夹{file}已经存在'.format(file=keywordpath))
         else:
             # 创建关键词文件夹
             os.makedirs(keywordpath)
