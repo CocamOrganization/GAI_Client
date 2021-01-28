@@ -46,7 +46,7 @@ class MyMainForm(Ui_MainWindow):
         else:
             file_path = self.msg()
             # print(file_path)
-            inputs = self.textEdit.toPlainText()
+            inputs = self.textEdit.toPlainText().strip('\n')
             all_need_crawl = inputs.split('\n')
             self.spider = main_spider.all_title_spider(all_need_crawl, file_path)
             self.spider.signal.connect(self.console_desplay)  # 将信号与槽函数链接

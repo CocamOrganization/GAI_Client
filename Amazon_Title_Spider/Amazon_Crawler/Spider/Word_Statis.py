@@ -160,14 +160,15 @@ class Cal_Words(object):
         keyword_all = pd.DataFrame()
         for path in path_txt:
             keywords = pd.read_csv(path, sep='\t')
-            keyword_all = pd.concat([keywords, keyword_all], axis=0)
-            keywords['reviews'] = keywords['reviews']. \
-                replace(',', '').replace('None', '0').astype(np.int64)
-            if len(keywords) == 0:
-                logging.debug('未成功抓取到title')
-                return
-            writer = pd.ExcelWriter(path[:path.find('.')] + '词频统计报告.xls')
-            self.cal_save_words(keywords, writer)
+            if len(keywords)>0:
+                keywords['reviews'] = keywords['reviews']. \
+                    replace(',', '').replace('None', '0').astype(np.int64)
+                keyword_all = pd.concat([keywords, keyword_all], axis=0)
+                writer = pd.ExcelWriter(path[:path.find('.')] + '词频统计报告.xls')
+                logging.info('开始对{file}进行词频统计'.format(file=path))
+                self.cal_save_words(keywords, writer)
+            else:
+                logging.debug('此文件{file}未成功抓取到title'.format(file=path))
         logging.info('文件夹下文件数量为：{length}'.format(length=len(path_txt)))
         if len(path_txt)>1:
             logging.info('开始进行全部词频统计：{path}'.format(path=file_path))
@@ -206,4 +207,4 @@ if __name__ == '__main__':
     # print(words_k)
     # word_count = cal_words.word_count(words_k)
     # print(word_count)
-    cal_words.statis_word_reviews('C:/Users/86178/Desktop/词频抓取/2021-01-27\cats')
+    cal_words.statis_word_reviews('C:/Users/86178/Documents/Tencent Files/2880332577/FileRecv/manyinputs_')

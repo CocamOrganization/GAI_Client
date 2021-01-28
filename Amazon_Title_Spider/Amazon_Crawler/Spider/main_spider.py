@@ -89,7 +89,7 @@ class all_title_spider(QThread):
         else:
             self.signal.emit('未抓取到title信息')
         # print('程序运行完毕,数据保存路径为：{file}'.format(file=file))
-        self.signal.emit('程序运行完毕\n数据保存路径为：{file}'.format(file=file))
+        self.signal.emit('数据保存路径为：{file}\n程序运行完毕'.format(file=file))
 
 
 if __name__ == '__main__':
