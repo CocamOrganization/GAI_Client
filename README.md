@@ -1,4 +1,4 @@
-# GAI_Client
+# GodsEye
 
 数据分析客户端主要用于Cocam数据分析工具的发布与维护
 
