@@ -149,11 +149,11 @@ class Send_Request(object):
             text = response.text
             if 'Robot Check' in text:
                 logging.debug('出现验证码,更换ip:{url}'.format(url=url))
-                time.sleep(random.randint(4,10))
+                time.sleep(random.randint(1,2))
                 return self.get_html(url, retries)
             elif 'Enter the characters you see below' in text:
                 logging.debug('出现验证码,更换ip:{url}'.format(url=url))
-                time.sleep(random.randint(4, 10))
+                time.sleep(random.randint(1, 2))
                 return self.get_html(url, retries)
             elif response.status_code == 404:
                 logging.debug('Page Not Found: {url}'.format(url=url))
@@ -163,14 +163,14 @@ class Send_Request(object):
             elif response.status_code == 503:
                 logging.debug('出现503错误：{url}'.format(url=url))
                 # self.check('unknown', '503', text)
-                time.sleep(random.randint(6, 10))
+                time.sleep(random.randint(1, 2))
                 return self.get_html(url, retries)
             else:
                 logging.debug('出现未知类型的错误：{url}'.format(url=url))
                 # self.check('unknown', url, text)
         except:
             logging.debug('连接超时，准备重试')
-            time.sleep(random.randint(8, 12))
+            time.sleep(random.randint(1, 2))
             return self.get_html(url, retries)
 
 if __name__ == '__main__':
