@@ -136,7 +136,7 @@ class Send_Request(object):
         session = requests.Session()
         try:
             #bestseller页面和详情页分开抓取
-            if 'dp/B0' not in url:
+            if 'd0p/B0' not in url:
                 response = requests.get(url, headers=self.headers, timeout=5)
             else:
                 token_response = session.get(address_selection, headers=self.headers, timeout=10)
