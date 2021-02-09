@@ -9,7 +9,7 @@ base_path = os.path.dirname(os.path.abspath(__file__))
 today_file = str(datetime.date.today())
 work_file = '..\\logs\\' + today_file + '.log'
 log_path = os.path.join(base_path, work_file)
-logging.basicConfig(level=logging.INFO,#控制台打印的日志级别
+logging.basicConfig(level=logging.DEBUG,#控制台打印的日志级别
                     format='%(asctime)s - %(pathname)s[line:%(lineno)d] - %(levelname)s: %(message)s',
                     filename = log_path,
                     filemode = 'a',  ##模式，有w和a，w就是写模式，每次都会重新写日志，覆盖之前的日志
@@ -172,6 +172,7 @@ class Cal_Words(object):
         logging.info('文件夹下文件数量为：{length}'.format(length=len(path_txt)))
         if len(path_txt)>1:
             logging.info('开始进行全部词频统计：{path}'.format(path=file_path))
+			keyword_all = keyword_all.reset_index()
             writer = pd.ExcelWriter('全部词频统计报告.xls')
             self.cal_save_words(keyword_all, writer)
 
