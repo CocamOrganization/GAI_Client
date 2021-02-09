@@ -171,8 +171,8 @@ class Cal_Words(object):
                 logging.debug('此文件{file}未成功抓取到title'.format(file=path))
         logging.info('文件夹下文件数量为：{length}'.format(length=len(path_txt)))
         if len(path_txt)>1:
+            keyword_all = keyword_all.reset_index()
             logging.info('开始进行全部词频统计：{path}'.format(path=file_path))
-			keyword_all = keyword_all.reset_index()
             writer = pd.ExcelWriter('全部词频统计报告.xls')
             self.cal_save_words(keyword_all, writer)
 
