@@ -5,6 +5,8 @@ import requests
 import json
 import logging
 # from loguru import logger
+from PyQt5.QtCore import pyqtSignal
+from PyQt5 import QtCore
 import random
 import os
 import time
@@ -24,12 +26,14 @@ logging.basicConfig(level=logging.DEBUG,#控制台打印的日志级别
 # a是追加模式，默认如果不写的话，就是追加模式
                     )
 
-class Send_Request(object):
+class Send_Request(QtCore.QObject):
+    signal = pyqtSignal(str)
     def __init__(self):
         '''headers::浏览器头
                        path :: 文件路径
                        keyword::关键词
                     '''
+        super().__init__()
         self.headers = {'user-agent': self.user_agent(),
                         'accept-ch': 'ect, rtt, downlink',
                         'accept - ch - lifetime': '86400',
@@ -127,10 +131,12 @@ class Send_Request(object):
 
     def get_html(self, url, retries=0):
         '''获取html代码'''
-        if retries > 999:
+        if retries > 60:
+            self.signal.emit('超过最大重试次数:{url}, 放弃抓取'.format(url=url))
             logging.debug('超过最大重试次数:{url}'.format(url=url))
             return
         retries += 1
+        self.signal.emit('第{i}次抓取{url}'.format(i=retries, url=url))
         adress_url = 'https://www.amazon.com/gp/delivery/ajax/address-change.html'
         address_selection = 'https://www.amazon.com/gp/glow/get-address-selections.html?deviceType=desktop&pageType=Detail'
         session = requests.Session()
@@ -148,30 +154,38 @@ class Send_Request(object):
                 response = session.get(url, headers=self.headers, timeout=5)
             text = response.text
             if 'Robot Check' in text:
-                logging.debug('出现验证码,更换ip:{url}'.format(url=url))
+                logging.debug('出现验证码,请更换VPN节点:{url}'.format(url=url))
+                self.signal.emit('出现验证码,请更换VPN节点:{url}'.format(url=url))
                 time.sleep(random.randint(1,2))
                 return self.get_html(url, retries)
             elif 'Enter the characters you see below' in text:
-                logging.debug('出现验证码,更换ip:{url}'.format(url=url))
+                logging.debug('出现验证码,请更换VPN节点:{url}'.format(url=url))
+                self.signal.emit('出现验证码,请更换VPN节点:{url}'.format(url=url))
                 time.sleep(random.randint(1, 2))
                 return self.get_html(url, retries)
             elif response.status_code == 404:
+                self.signal.emit('Page Not Found: {url}'.format(url=url))
                 logging.debug('Page Not Found: {url}'.format(url=url))
             elif response.status_code == 200:
+                self.signal.emit('成功获取页面：{url}'.format(url=url))
                 logging.info('成功获取页面：{url}'.format(url=url))
                 return text
             elif response.status_code == 503:
+                self.signal.emit('出现503错误：{url}'.format(url=url))
                 logging.debug('出现503错误：{url}'.format(url=url))
                 # self.check('unknown', '503', text)
                 time.sleep(random.randint(1, 2))
                 return self.get_html(url, retries)
             else:
+                self.signal.emit('出现未知类型的错误：{url}'.format(url=url))
                 logging.debug('出现未知类型的错误：{url}'.format(url=url))
                 # self.check('unknown', url, text)
         except:
+            self.signal.emit('连接超时，准备重试')
             logging.debug('连接超时，准备重试')
             time.sleep(random.randint(1, 2))
             return self.get_html(url, retries)
+
 
 if __name__ == '__main__':
     import os

@@ -4,7 +4,7 @@ import logging
 # from loguru import logger
 import datetime
 
-sr = send_request.Send_Request()
+# sr = send_request.Send_Request()
 spider = crawl_info.Spider()
 
 base_path = os.path.dirname(os.path.abspath(__file__))
@@ -17,7 +17,7 @@ logging.basicConfig(level=logging.DEBUG,#控制台打印的日志级别
                     filemode = 'a',  ##模式，有w和a，w就是写模式，每次都会重新写日志，覆盖之前的日志
 # a是追加模式，默认如果不写的话，就是追加模式
                     )
-class Getter(object):
+class Getter(send_request.Send_Request):
 
     def mk_file(self, base_file, input):
         path = base_file
@@ -83,7 +83,7 @@ class Getter(object):
         :param page_one_url: bsr页面的第一页链接
         :return:
         '''
-        page_one_txt = sr.get_html(page_one_url)
+        page_one_txt = self.get_html(page_one_url)
         if page_one_txt != None:
             response = (page_one_txt, page_one_url)
             page_two = spider.get_bsr_two_url(response)
@@ -105,7 +105,7 @@ class Getter(object):
         :return:
         '''
         if url != None:
-            start_text = sr.get_html(url)
+            start_text = self.get_html(url)
             if isinstance(start_text, str):
                 if 'https://www.amazon.com/s?k=' in url:
                     response = (start_text, url)

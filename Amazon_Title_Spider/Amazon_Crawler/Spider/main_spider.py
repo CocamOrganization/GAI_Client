@@ -43,7 +43,15 @@ class all_title_spider(QThread):
                     getter.title_save(inf, file)
                     lock.release()  # 解锁
 
+    def send_singal(self, str_):
+        '''
+        传递信号
+        '''
+        # print(str_)
+        self.signal.emit(str_)
+
     def run(self):
+        getter.signal.connect(self.send_singal)  # 传递信号
         global file
         self.inputs_set = set([i for i in self.inputs if i != '' and i != None])
         if len(self.inputs_set) == 1:
